@@ -1,0 +1,571 @@
+<html>
+	<head>
+		<title> Stays & Lodge </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	
+	<body>
+	
+		<!--navbar--->
+	<nav class="sticky top-0 z-50 bg-white shadow-md border-b border-amber-500">
+		<div class="max-w-6xl mx-auto px-5 sm:px-8 h-20 flex items-center">
+			<div class="flex">
+				<a href="index.html" class="flex items-center gap-3">
+					<svg width="34" height="34" viewBox="0 0 100 100"><circle cx="50" cy="50" r="47" fill="#064e3b"/><path d="M15 68 L38 32 L52 54 L60 42 L85 68 Z" fill="#f5f5f4"/><circle cx="68" cy="28" r="8" fill="#d97706"/></svg>
+					<span class="font-serif font-bold text-lg tracking-wide text-emerald-900">TRAIL<span class="text-amber-600">HEAD</span></span>
+				</a>
+			</div>
+
+			<label for="menuToggle" class="lg:hidden ml-auto cursor-pointer p-2">
+				<svg xmlns="http://www.w3.org/2000/svg"class="w-8 h-8 text-emerald-900"fill="none"viewBox="0 0 24 24"stroke="currentColor"><path stroke-linecap="round"stroke-linejoin="round"stroke-width="2"d="M4 6h16M4 12h16M4 18h16"/></svg>
+			</label>
+
+			<ul class="hidden lg:flex items-center gap-8 font-medium text-sm text-stone-700 ml-auto">
+				<li>
+					<a href="index.html" class="px-3 py-2 rounded hover:text-amber-600">Home</a>
+				</li>
+
+				<li class="relative">
+					<input type="checkbox" id="about1" class="hidden peer">
+
+					<label for="about1" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "expeditions.html">Expeditions</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="mountain-trekking-routes.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Mountain Trekking Routes</a></li>
+						<li><a href="river-kayaking-rafting.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">River Kayaking &amp; Rafting</a></li>
+						<li><a href="forest-camping-safaris.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Forest Camping Safaris</a></li>
+						<li><a href="desert-survival-camps.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Desert Survival Camps</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about2" class="hidden peer">
+
+					<label for="about2" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "stays-lodges.html">Stays &amp; Lodge</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="eco-friendly-cabins.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Eco-Friendly Cabins</a></li>
+						<li><a href="mountain-glamping-tents.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Mountain Glamping Tents</a></li>
+						<li><a href="treehouse-resorts.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Treehouse Resorts</a></li>
+						<li><a href="wilderness-hostels.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Wilderness Hostels</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about3" class="hidden peer">
+
+					<label for="about3" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "gear-rentals.html">Gear &amp; Rentals</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="camping-tent-gear.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Camping &amp; Tent Gear</a></li>
+						<li><a href="trekking-apparel-boots.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Trekking Apparel &amp; Boots</a></li>
+						<li><a href="gps-safety-equipment.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">GPS &amp; Safety Equipment</a></li>
+						<li><a href="complete-backpacking-packages.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Complete Backpacking Packages</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about4" class="hidden peer">
+
+					<label for="about4" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "guides-safety.html">Guides &amp; Safety</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="certified-local-guides.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Certified Local Guides</a></li>
+						<li><a href="trail-maps-gpx-downloads.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Trail Maps &amp; GPX Downloads</a></li>
+						<li><a href="wilderness-first-aid-guide.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Wilderness First Aid Guide</a></li>
+						<li><a href="weather-avalanche-alerts.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Weather &amp; Avalanche Alerts</a></li>
+					</ul>
+
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!-- Mobile Navbar--->
+		<input type="checkbox" id="menuToggle" class="hidden peer/menu">
+		<div class="hidden peer-checked/menu:block lg:hidden bg-white border-t border-stone-200">
+
+			<div class="px-5 py-4 space-y-1 font-medium">
+
+				<a href="index.html" class="block py-2 hover:text-amber-600">
+					Home
+				</a>
+
+				<input type="checkbox" id="mobileExp" class="hidden peer/exp">
+
+				<label for="mobileExp" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "expeditions.html">Expeditions</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/exp:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="mountain-trekking-routes.html" class="block py-1.5 hover:text-amber-600">Mountain Trekking Routes</a>
+					<a href="river-kayaking-rafting.html" class="block py-1.5 hover:text-amber-600">River Kayaking &amp; Rafting</a>
+					<a href="forest-camping-safaris.html" class="block py-1.5 hover:text-amber-600">Forest Camping Safaris</a>
+					<a href="desert-survival-camps.html" class="block py-1.5 hover:text-amber-600">Desert Survival Camps</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileStay" class="hidden peer/stay">
+
+				<label for="mobileStay" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "stays-lodges.html">Stays &amp; Lodges</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/stay:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="eco-friendly-cabins.html" class="block py-1.5 hover:text-amber-600">Eco-Friendly Cabins</a>
+					<a href="mountain-glamping-tents.html" class="block py-1.5 hover:text-amber-600">Mountain Glamping Tents</a>
+					<a href="treehouse-resorts.html" class="block py-1.5 hover:text-amber-600">Treehouse Resorts</a>
+					<a href="wilderness-hostels.html" class="block py-1.5 hover:text-amber-600">Wilderness Hostels</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileGear" class="hidden peer/gear">
+
+				<label for="mobileGear" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "gear-rentals.html">Gear &amp; Rentals</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/gear:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="camping-tent-gear.html" class="block py-1.5 hover:text-amber-600">Camping &amp; Tent Gear</a>
+					<a href="trekking-apparel-boots.html" class="block py-1.5 hover:text-amber-600">Trekking Apparel &amp; Boots</a>
+					<a href="gps-safety-equipment.html" class="block py-1.5 hover:text-amber-600">GPS &amp; Safety Equipment</a>
+					<a href="complete-backpacking-packages.html" class="block py-1.5 hover:text-amber-600">Complete Backpacking Packages</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileGuide" class="hidden peer/guide">
+
+				<label for="mobileGuide" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "guides-safety.html">Guides &amp; Safety</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/guide:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="certified-local-guides.html" class="block py-1.5 hover:text-amber-600">Certified Local Guides</a>
+					<a href="trail-maps-gpx-downloads.html" class="block py-1.5 hover:text-amber-600">Trail Maps &amp; GPX Downloads</a>
+					<a href="wilderness-first-aid-guide.html" class="block py-1.5 hover:text-amber-600">Wilderness First Aid Guide</a>
+					<a href="weather-avalanche-alerts.html" class="block py-1.5 hover:text-amber-600">Weather &amp; Avalanche Alerts</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</nav>
+		
+		<!--2nd section--->
+		<section class="relative overflow-hidden border-b-2 border-emerald-900">
+			<div class="absolute inset-0 grid grid-cols-4">
+				<img src="img/stay-eco-cabin.jpg" class="w-full h-full object-cover">
+				<img src="img/stay-glamping-tent.jpg" class="w-full h-full object-cover">
+				<img src="img/stay-treehouse.jpg" class="w-full h-full object-cover">
+				<img src="img/stay-wilderness-hostel.jpg" class="w-full h-full object-cover">
+			</div>
+			<div class="absolute inset-0 bg-black/60"></div>
+
+			<div class="relative max-w-4xl mx-auto px-5 sm:px-8 py-24 sm:py-32 text-center text-white">
+
+				<p class="font-mono text-xs uppercase tracking-widest text-amber-500 mb-5"></p>
+
+				<h1 class="font-sans font-extrabold text-4xl sm:text-6xl uppercase leading-none tracking-tighter">A place to sleep <br class="hidden sm:block">that <span class="text-amber-500">matches the trail.</span></h1>
+
+				<p class="mt-7 mx-auto max-w-2xl text-lg leading-relaxed text-white/90">Eco-cabins, glamping tents, treehouses and hostels &mdash; every listing sits within reach of a TrailHead expedition and is rated on how well it actually recovers you for the next day.</p>
+
+				<div class="mt-9 flex flex-wrap justify-center gap-4">
+					<a href="#explore" class="bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/20 font-mono text-xs uppercase tracking-widest px-8 py-4 rounded-full transition-all hover:scale-105">See all stay types</a>
+					<a href="expeditions.html" class="bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/20 font-mono text-xs uppercase tracking-widest px-8 py-4 rounded-full transition-all hover:scale-105">Pair with an expedition</a>
+				</div>
+
+				<div class="mt-14 flex justify-center divide-white/20">
+					<div class="px-8 first:pl-0 last:pr-0">
+						<p class="font-sans text-3xl font-extrabold tracking-tighter">340</p>
+						<p class="font-mono text-xs uppercase tracking-widest text-white/70 mt-2">Partner lodges</p>
+					</div>
+					<div class="px-8 first:pl-0 last:pr-0">
+						<p class="font-sans text-3xl font-extrabold tracking-tighter">4.7/5</p>
+						<p class="font-mono text-xs uppercase tracking-widest text-white/70 mt-2">Guest rating</p>
+					</div>
+					<div class="px-8 first:pl-0 last:pr-0">
+						<p class="font-sans text-3xl font-extrabold tracking-tighter">72hr</p>
+						<p class="font-mono text-xs uppercase tracking-widest text-white/70 mt-2">Free cancellation</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		
+		<!--3rd section--->
+		<section class="bg-white border-y border-stone-200">
+			<div class="max-w-7xl mx-auto px-5 sm:px-8 py-16 grid lg:grid-cols-3 gap-10 lg:gap-14 items-center">
+
+				<div class="lg:col-span-1">
+					<p class="font-mono text-xs uppercase tracking-widest text-amber-600 mb-4"></p>
+					<h2 class="font-sans font-extrabold text-4xl sm:text-5xl uppercase leading-none tracking-tighter">One standard,<br><span class="text-amber-600">four styles.</span></h2>
+					<div class="my-7"></div>
+					<p class="text-stone-600 leading-relaxed">Every property is checked for proximity to the trailhead and how well it actually helps you recover overnight. Below that line, we let the styles differ a lot.</p>
+				</div>
+
+				<div class="lg:col-span-2">
+
+					<input type="radio" name="stayslide" id="stay1" class="hidden peer/stay1" checked>
+					<input type="radio" name="stayslide" id="stay2" class="hidden peer/stay2">
+					<input type="radio" name="stayslide" id="stay3" class="hidden peer/stay3">
+					<input type="radio" name="stayslide" id="stay4" class="hidden peer/stay4">
+
+					<div class="overflow-hidden rounded-2xl
+								peer-checked/stay1:[&>div]:translate-x-0
+								peer-checked/stay2:[&>div]:-translate-x-1/4
+								peer-checked/stay3:[&>div]:-translate-x-2/4
+								peer-checked/stay4:[&>div]:-translate-x-3/4">
+
+						<div class="flex w-[400%] transition-transform duration-700">
+
+							<div class="w-1/4 relative">
+								<img src="img/solar_or_grid_free_power.jpg" alt="" class="w-full h-80 sm:h-[26rem] object-cover">
+								<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent"></div>
+								<div class="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+									<h3 class="font-sans font-extrabold text-white text-lg sm:text-xl">Solar or grid-free power</h3>
+									<div class="my-3"></div>
+									<p class="text-white/85 text-sm leading-relaxed max-w-sm">Solar or grid-free power options flagged clearly on every listing.</p>
+								</div>
+							</div>
+
+							<div class="w-1/4 relative">
+								<img src="img/trailhead_proximity.jpg" alt="" class="w-full h-80 sm:h-[26rem] object-cover">
+								<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent"></div>
+								<div class="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+									<h3 class="font-sans font-extrabold text-white text-lg sm:text-xl">Trailhead proximity</h3>
+									<div class="my-3"></div>
+									<p class="text-white/85 text-sm leading-relaxed max-w-sm">Walking distance or short shuttle to major trailheads.</p>
+								</div>
+							</div>
+
+							<div class="w-1/4 relative">
+								<img src="img/local_ownership.jpg" alt="" class="w-full h-80 sm:h-[26rem] object-cover">
+								<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent"></div>
+								<div class="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+									<h3 class="font-sans font-extrabold text-white text-lg sm:text-xl">Local ownership</h3>
+									<div class="my-3"></div>
+									<p class="text-white/85 text-sm leading-relaxed max-w-sm">Local ownership prioritised over chain properties.</p>
+								</div>
+							</div>
+
+							<div class="w-1/4 relative">
+								<img src="img/flexible_booking.jpg" alt="" class="w-full h-80 sm:h-[26rem] object-cover">
+								<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent"></div>
+								<div class="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+									<h3 class="font-sans font-extrabold text-white text-lg sm:text-xl">Flexible booking</h3>
+									<div class="my-3"></div>
+									<p class="text-white/85 text-sm leading-relaxed max-w-sm">Free cancellation up to 72 hours before check-in.</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="mt-6 flex justify-center gap-3
+								peer-checked/stay1:[&>label:nth-child(1)]:bg-emerald-900
+								peer-checked/stay2:[&>label:nth-child(2)]:bg-emerald-900
+								peer-checked/stay3:[&>label:nth-child(3)]:bg-emerald-900
+								peer-checked/stay4:[&>label:nth-child(4)]:bg-emerald-900">
+						<label for="stay1" class="w-3 h-3 rounded-full bg-stone-300 hover:bg-stone-400 cursor-pointer transition"></label>
+						<label for="stay2" class="w-3 h-3 rounded-full bg-stone-300 hover:bg-stone-400 cursor-pointer transition"></label>
+						<label for="stay3" class="w-3 h-3 rounded-full bg-stone-300 hover:bg-stone-400 cursor-pointer transition"></label>
+						<label for="stay4" class="w-3 h-3 rounded-full bg-stone-300 hover:bg-stone-400 cursor-pointer transition"></label>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		
+		<!--4th section--->
+		<section id="explore" class="max-w-7xl mx-auto px-5 sm:px-8 py-16">
+
+			<p class="font-mono text-xs uppercase tracking-widest text-amber-600 mb-3"></p>
+			<h2 class="font-sans font-extrabold text-3xl sm:text-5xl uppercase tracking-tighter leading-none mb-6 max-w-xl">Explore Stays &amp; Lodges</h2>
+
+			<div>
+				<div class="grid lg:grid-cols-2 gap-8 items-center py-10 border-b border-stone-200 last:border-0">
+					<img src="img/stay-eco-cabin.jpg" class="h-56 w-full rounded-2xl object-cover">
+					<div>
+						<p class="font-mono text-xs uppercase tracking-widest text-amber-600 mb-2"></p>
+						<h3 class="font-sans font-extrabold uppercase tracking-tight text-2xl mb-3">Eco-Friendly Cabins</h3>
+						<p class="text-stone-600 leading-relaxed mb-4">Solar-powered, off-grid cabins built with local materials, sited within a short walk of major trailheads.</p>
+						<a href="eco-friendly-cabins.html" class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600">Explore Eco-Friendly Cabins</a>
+					</div>
+				</div>
+
+				<div class="grid lg:grid-cols-2 gap-8 items-center py-10 border-b border-stone-200 last:border-0">
+					<img src="img/stay-glamping-tent.jpg" class="h-56 w-full rounded-2xl object-cover lg:order-2">
+					<div class="lg:order-1">
+						<p class="font-mono text-xs uppercase tracking-widest text-amber-600 mb-2"></p>
+						<h3 class="font-sans font-extrabold uppercase tracking-tight text-2xl mb-3">Mountain Glamping Tents</h3>
+						<p class="text-stone-600 leading-relaxed mb-4">Canvas tents with real beds, insulated walls and ridge-line views at elevation.</p>
+						<a href="mountain-glamping-tents.html" class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600">Explore Mountain Glamping Tents</a>
+					</div>
+				</div>
+
+				<div class="grid lg:grid-cols-2 gap-8 items-center py-10 border-b border-stone-200 last:border-0">
+					<img src="img/stay-treehouse.jpg" class="h-56 w-full rounded-2xl object-cover">
+					<div>
+						<p class="font-mono text-xs uppercase tracking-widest text-amber-600 mb-2"></p>
+						<h3 class="font-sans font-extrabold uppercase tracking-tight text-2xl mb-3">Treehouse Resorts</h3>
+						<p class="text-stone-600 leading-relaxed mb-4">Elevated stays engineered into working forest canopy, from 3m platforms to 18m full-canopy nests.</p>
+						<a href="treehouse-resorts.html" class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600">Explore Treehouse Resorts</a>
+					</div>
+				</div>
+
+				<div class="grid lg:grid-cols-2 gap-8 items-center py-10 border-b border-stone-200 last:border-0">
+					<img src="img/stay-wilderness-hostel.jpg" class="h-56 w-full rounded-2xl object-cover lg:order-2">
+					<div class="lg:order-1">
+						<p class="font-mono text-xs uppercase tracking-widest text-amber-600 mb-2"></p>
+						<h3 class="font-sans font-extrabold uppercase tracking-tight text-2xl mb-3">Wilderness Hostels</h3>
+						<p class="text-stone-600 leading-relaxed mb-4">Budget shared stays built for solo trekkers and small groups, with gear-drying rooms as standard.</p>
+						<a href="wilderness-hostels.html" class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600">Explore Wilderness Hostels</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		
+		<!--5th section--->
+		<section class="bg-amber-600 text-white">
+		
+		  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-16">
+			<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-5xl leading-none mb-10 max-w-xl">What every listing covers</h2>
+			<div class="grid sm:grid-cols-2 gap-x-10 gap-y-8">
+			
+			  <div class="flex gap-4">
+				<div class="w-9 h-9 shrink-0 rounded-full bg-emerald-950 text-amber-600 flex items-center justify-center font-sans font-extrabold text-sm">1</div>
+				<div>
+					<h3 class="font-sans font-extrabold uppercase tracking-tight text-sm">Trailhead-adjacent</h3>
+					<p class="text-sm text-white/60 mt-1">Every stay is within a short walk or shuttle of at least one guided expedition.</p></div>
+			  </div>
+			  
+			  <div class="flex gap-4">
+				<div class="w-9 h-9 shrink-0 rounded-full bg-emerald-950 text-amber-600 flex items-center justify-center font-sans font-extrabold text-sm">2</div>
+				<div>
+					<h3 class="font-sans font-extrabold uppercase tracking-tight text-sm">Power transparency</h3>
+					<p class="text-sm text-white/60 mt-1">Solar, generator or grid access is listed upfront on every listing.</p></div>
+			  </div>
+			  
+			  <div class="flex gap-4">
+				<div class="w-9 h-9 shrink-0 rounded-full bg-emerald-950 text-amber-600 flex items-center justify-center font-sans font-extrabold text-sm">3</div>
+				<div>
+					<h3 class="font-sans font-extrabold uppercase tracking-tight text-sm">Locally owned first</h3>
+					<p class="text-sm text-white/60 mt-1">Family-run properties are prioritised over large chains.</p></div>
+			  </div>
+			  
+			  <div class="flex gap-4">
+				<div class="w-9 h-9 shrink-0 rounded-full bg-emerald-950 text-amber-600 flex items-center justify-center font-sans font-extrabold text-sm">4</div>
+				<div>
+					<h3 class="font-sans font-extrabold uppercase tracking-tight text-sm">Recovery-rated</h3>
+					<p class="text-sm text-white/60 mt-1">Guests rate each stay on how well it helped them recover for the next day.</p></div>
+			  </div>
+			  
+			</div>
+		  </div>
+		  
+		</section>
+		
+		<!--6th section--->
+		<section class="max-w-7xl mx-auto px-5 sm:px-8 py-16">
+		
+		  <div class="grid lg:grid-cols-3 gap-6">
+			<div class="lg:col-span-1 p-8 rounded-2xl border border-stone-200 flex flex-col justify-center">
+			  <p class="font-sans text-5xl font-extrabold tracking-tighter">340</p>
+			  <p class="font-mono text-xs uppercase tracking-widest text-stone-500 mt-3">partner properties across four stay types</p>
+			</div>
+			
+			<div class="lg:col-span-2 grid sm:grid-cols-3 gap-6">
+			  <div class="p-6 rounded-2xl border border-stone-200"><p class="font-sans text-3xl font-extrabold tracking-tighter">4</p><p class="font-mono text-xs uppercase tracking-widest text-stone-500 mt-2">stay categories</p></div>
+			  <div class="p-6 rounded-2xl border border-stone-200"><p class="font-sans text-3xl font-extrabold tracking-tighter">72hr</p><p class="font-mono text-xs uppercase tracking-widest text-stone-500 mt-2">free cancellation window</p></div>
+			  <div class="p-6 rounded-2xl border border-stone-200"><p class="font-sans text-3xl font-extrabold tracking-tighter">4.7/5</p><p class="font-mono text-xs uppercase tracking-widest text-stone-500 mt-2">guest rating average</p></div>
+			</div>
+			
+		  </div>
+		  
+		</section>
+		
+		<section class="bg-white border-y border-stone-200">
+		
+		  <div class="max-w-4xl mx-auto px-5 sm:px-8 py-16 text-center">
+			<p class="text-xl sm:text-2xl leading-snug text-stone-800">&ldquo;The eco-cabin had solar hot water waiting after a 14km day. Small thing, mattered a lot.&rdquo;</p>
+			<div class="mt-6 flex items-center justify-center gap-3">
+			  <div class="w-10 h-10 rounded-full bg-emerald-800 text-white flex items-center justify-center font-sans font-extrabold">AM</div>
+			  <div class="text-left"><p class="font-mono text-xs uppercase tracking-widest text-emerald-900">Ajith Kumae</p><p class="text-xs text-stone-500">Chennai</p></div>
+			</div>
+		  </div>
+		  
+		</section>
+		
+		<!--7th section--->
+		<section class="max-w-7xl mx-auto px-5 sm:px-8 py-16">
+
+			<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-4xl mb-10">Frequently asked</h2>
+
+			<div class="grid md:grid-cols-2 gap-x-10">
+
+				<div class="border-b border-stone-200">
+
+					<input type="checkbox" id="stayfaq1" class="hidden peer">
+
+					<label for="stayfaq1" class="flex justify-between items-center gap-4 font-semibold py-4 cursor-pointer hover:text-amber-600 peer-checked:[&>svg]:rotate-180">
+						<span>Are these bookable without an expedition?</span>
+						<svg class="w-4 h-4 shrink-0 transition-transform duration-300" viewBox="0 0 10 6" fill="none">
+							<path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/>
+						</svg>
+					</label>
+
+					<p class="hidden peer-checked:block text-sm text-stone-600 leading-relaxed pb-4">Yes &mdash; stays can be booked on their own, though most guests pair one with a nearby guided route.</p>
+
+				</div>
+
+				<div class="border-b border-stone-200">
+
+					<input type="checkbox" id="stayfaq2" class="hidden peer">
+
+					<label for="stayfaq2" class="flex justify-between items-center gap-4 font-semibold py-4 cursor-pointer hover:text-amber-600 peer-checked:[&>svg]:rotate-180">
+						<span>Do all cabins have solar power?</span>
+						<svg class="w-4 h-4 shrink-0 transition-transform duration-300" viewBox="0 0 10 6" fill="none">
+							<path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/>
+						</svg>
+					</label>
+
+					<p class="hidden peer-checked:block text-sm text-stone-600 leading-relaxed pb-4">Power source varies by property and is listed on every individual listing before you book.</p>
+
+				</div>
+
+				<div class="border-b border-stone-200 md:col-span-2">
+
+					<input type="checkbox" id="stayfaq3" class="hidden peer">
+
+					<label for="stayfaq3" class="flex justify-between items-center gap-4 font-semibold py-4 cursor-pointer hover:text-amber-600 peer-checked:[&>svg]:rotate-180">
+						<span>What's the cancellation policy?</span>
+						<svg class="w-4 h-4 shrink-0 transition-transform duration-300" viewBox="0 0 10 6" fill="none">
+							<path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/>
+						</svg>
+					</label>
+
+					<p class="hidden peer-checked:block text-sm text-stone-600 leading-relaxed pb-4">Free cancellation up to 72 hours before check-in on standard rates; some peak-season listings vary.</p>
+
+				</div>
+
+			</div>
+		</section>
+		
+		<section class="bg-emerald-950">
+		
+		  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-14 grid lg:grid-cols-3 gap-6 items-center">
+			<div class="lg:col-span-2">
+			  <h2 class="font-sans font-extrabold uppercase tracking-tighter text-2xl sm:text-3xl text-white">Pair a stay with a route</h2>
+			  <p class="text-white/70 mt-2">See expeditions departing near each of our stay categories.</p>
+			</div>
+			<a href="expeditions.html" class="bg-amber-600 text-white hover:bg-white hover:text-emerald-950 font-mono text-xs uppercase tracking-widest px-7 py-4 text-center whitespace-nowrap">Browse Expeditions</a>
+		  </div>
+		  
+		</section>
+		
+		<!--footer section--->
+		<footer class="bg-emerald-600 text-white/80 mt-16">
+		  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+		  
+			<div>
+			  <div class="flex items-center gap-3 mb-4">
+				<span class="font-serif font-bold text-white">TRAILHEAD</span>
+			  </div>
+			  <p class="text-sm text-white/50 leading-relaxed">Adventure travel, eco-lodge bookings and outdoor gear for people who plan their year around a trailhead.</p>
+			</div>
+			
+			<div>
+			  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Explore</h4>
+			  <ul class="space-y-2 text-sm text-white/60">
+				<li><a href="expeditions.html" class="hover:text-amber-500">Expeditions</a></li>
+				<li><a href="stays-lodges.html" class="hover:text-amber-500">Stays &amp; Lodges</a></li>
+				<li><a href="gear-rentals.html" class="hover:text-amber-500">Gear &amp; Rentals</a></li>
+				<li><a href="guides-safety.html" class="hover:text-amber-500">Guides &amp; Safety</a></li>
+			  </ul>
+			</div>
+			
+			<div>
+			  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Company</h4>
+			  <ul class="space-y-2 text-sm text-white/60">
+				<li><a href="#" class="hover:text-amber-500">About TrailHead</a></li>
+				<li><a href="#" class="hover:text-amber-500">Careers</a></li>
+				<li><a href="#" class="hover:text-amber-500">Field Journal</a></li>
+				<li><a href="#" class="hover:text-amber-500">Contact</a></li>
+			  </ul>
+			</div>
+			
+			<div>
+			  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Support</h4>
+			  <ul class="space-y-2 text-sm text-white/60">
+				<li><a href="wilderness-first-aid-guide.html" class="hover:text-amber-500">Safety &amp; First Aid</a></li>
+				<li><a href="weather-avalanche-alerts.html" class="hover:text-amber-500">Weather Alerts</a></li>
+				<li><a href="#" class="hover:text-amber-500">Cancellations</a></li>
+				<li><a href="#" class="hover:text-amber-500">Terms &amp; Privacy</a></li>
+			  </ul>
+			</div>
+			
+		  </div>
+		  
+		  <div class="border-t border-white/10">
+			<div class="max-w-7xl mx-auto px-5 sm:px-8 py-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-white/40">
+			  <p>&copy; 2026 TrailHead Adventures. All trails lead somewhere.</p>
+			  <p>Privacy Policy &middot; Terms &middot; Accessibility</p>
+			</div>
+		  </div>
+		  
+		</footer>
+	
+	</body>
+</html>

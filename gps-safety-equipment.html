@@ -1,0 +1,582 @@
+<html>
+	<head>
+		<title> trial maps grpx downloads </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	
+	<body>
+	
+		<!--navbar--->
+	<nav class="sticky top-0 z-50 bg-white shadow-md border-b border-amber-500">
+		<div class="max-w-6xl mx-auto px-5 sm:px-8 h-20 flex items-center">
+			<div class="flex">
+				<a href="index.html" class="flex items-center gap-3">
+					<svg width="34" height="34" viewBox="0 0 100 100"><circle cx="50" cy="50" r="47" fill="#064e3b"/><path d="M15 68 L38 32 L52 54 L60 42 L85 68 Z" fill="#f5f5f4"/><circle cx="68" cy="28" r="8" fill="#d97706"/></svg>
+					<span class="font-serif font-bold text-lg tracking-wide text-emerald-900">TRAIL<span class="text-amber-600">HEAD</span></span>
+				</a>
+			</div>
+
+			<label for="menuToggle" class="lg:hidden ml-auto cursor-pointer p-2">
+				<svg xmlns="http://www.w3.org/2000/svg"class="w-8 h-8 text-emerald-900"fill="none"viewBox="0 0 24 24"stroke="currentColor"><path stroke-linecap="round"stroke-linejoin="round"stroke-width="2"d="M4 6h16M4 12h16M4 18h16"/></svg>
+			</label>
+
+			<ul class="hidden lg:flex items-center gap-8 font-medium text-sm text-stone-700 ml-auto">
+				<li>
+					<a href="index.html" class="px-3 py-2 rounded hover:text-amber-600">Home</a>
+				</li>
+
+				<li class="relative">
+					<input type="checkbox" id="about1" class="hidden peer">
+
+					<label for="about1" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "expeditions.html">Expeditions</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="mountain-trekking-routes.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Mountain Trekking Routes</a></li>
+						<li><a href="river-kayaking-rafting.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">River Kayaking &amp; Rafting</a></li>
+						<li><a href="forest-camping-safaris.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Forest Camping Safaris</a></li>
+						<li><a href="desert-survival-camps.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Desert Survival Camps</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about2" class="hidden peer">
+
+					<label for="about2" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "stays-lodges.html">Stays &amp; Lodge</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="eco-friendly-cabins.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Eco-Friendly Cabins</a></li>
+						<li><a href="mountain-glamping-tents.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Mountain Glamping Tents</a></li>
+						<li><a href="treehouse-resorts.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Treehouse Resorts</a></li>
+						<li><a href="wilderness-hostels.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Wilderness Hostels</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about3" class="hidden peer">
+
+					<label for="about3" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "gear-rentals.html">Gear &amp; Rentals</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="camping-tent-gear.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Camping &amp; Tent Gear</a></li>
+						<li><a href="trekking-apparel-boots.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Trekking Apparel &amp; Boots</a></li>
+						<li><a href="gps-safety-equipment.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">GPS &amp; Safety Equipment</a></li>
+						<li><a href="complete-backpacking-packages.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Complete Backpacking Packages</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about4" class="hidden peer">
+
+					<label for="about4" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "guides-safety.html">Guides &amp; Safety</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="certified-local-guides.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Certified Local Guides</a></li>
+						<li><a href="trail-maps-gpx-downloads.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Trail Maps &amp; GPX Downloads</a></li>
+						<li><a href="wilderness-first-aid-guide.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Wilderness First Aid Guide</a></li>
+						<li><a href="weather-avalanche-alerts.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Weather &amp; Avalanche Alerts</a></li>
+					</ul>
+
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!-- Mobile Navbar--->
+		<input type="checkbox" id="menuToggle" class="hidden peer/menu">
+		<div class="hidden peer-checked/menu:block lg:hidden bg-white border-t border-stone-200">
+
+			<div class="px-5 py-4 space-y-1 font-medium">
+
+				<a href="index.html" class="block py-2 hover:text-amber-600">
+					Home
+				</a>
+
+				<input type="checkbox" id="mobileExp" class="hidden peer/exp">
+
+				<label for="mobileExp" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "expeditions.html">Expeditions</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/exp:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="mountain-trekking-routes.html" class="block py-1.5 hover:text-amber-600">Mountain Trekking Routes</a>
+					<a href="river-kayaking-rafting.html" class="block py-1.5 hover:text-amber-600">River Kayaking &amp; Rafting</a>
+					<a href="forest-camping-safaris.html" class="block py-1.5 hover:text-amber-600">Forest Camping Safaris</a>
+					<a href="desert-survival-camps.html" class="block py-1.5 hover:text-amber-600">Desert Survival Camps</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileStay" class="hidden peer/stay">
+
+				<label for="mobileStay" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "stays-lodges.html">Stays &amp; Lodges</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/stay:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="eco-friendly-cabins.html" class="block py-1.5 hover:text-amber-600">Eco-Friendly Cabins</a>
+					<a href="mountain-glamping-tents.html" class="block py-1.5 hover:text-amber-600">Mountain Glamping Tents</a>
+					<a href="treehouse-resorts.html" class="block py-1.5 hover:text-amber-600">Treehouse Resorts</a>
+					<a href="wilderness-hostels.html" class="block py-1.5 hover:text-amber-600">Wilderness Hostels</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileGear" class="hidden peer/gear">
+
+				<label for="mobileGear" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "gear-rentals.html">Gear &amp; Rentals</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/gear:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="camping-tent-gear.html" class="block py-1.5 hover:text-amber-600">Camping &amp; Tent Gear</a>
+					<a href="trekking-apparel-boots.html" class="block py-1.5 hover:text-amber-600">Trekking Apparel &amp; Boots</a>
+					<a href="gps-safety-equipment.html" class="block py-1.5 hover:text-amber-600">GPS &amp; Safety Equipment</a>
+					<a href="complete-backpacking-packages.html" class="block py-1.5 hover:text-amber-600">Complete Backpacking Packages</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileGuide" class="hidden peer/guide">
+
+				<label for="mobileGuide" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "guides-safety.html">Guides &amp; Safety</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/guide:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="certified-local-guides.html" class="block py-1.5 hover:text-amber-600">Certified Local Guides</a>
+					<a href="trail-maps-gpx-downloads.html" class="block py-1.5 hover:text-amber-600">Trail Maps &amp; GPX Downloads</a>
+					<a href="wilderness-first-aid-guide.html" class="block py-1.5 hover:text-amber-600">Wilderness First Aid Guide</a>
+					<a href="weather-avalanche-alerts.html" class="block py-1.5 hover:text-amber-600">Weather &amp; Avalanche Alerts</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</nav>
+	
+		<!--1st section--->
+		<section class="bg-stone-950 text-white py-20 border-b border-stone-800 relative overflow-hidden">
+
+		  <div class="absolute -top-40 -left-40 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+		  <div class="max-w-7xl mx-auto px-5 sm:px-8 relative z-10">
+			<div class="grid lg:grid-cols-12 gap-12 items-center">
+	
+			  <div class="lg:col-span-7">
+				<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-semibold tracking-wider uppercase mb-6">
+				  <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+				  Emergency Ready - GPS & Satellite
+				</div>
+				<h1 class="font-serif font-bold text-4xl sm:text-6xl text-stone-100 leading-[1.15]">
+				  Never step off grid <span class="text-amber-500 underline decoration-amber-500/40 underline-offset-8">unprepared.</span>
+				</h1>
+				<p class="mt-6 text-stone-300 text-lg leading-relaxed max-w-xl">
+				  Handheld GPS units, satellite beacons, and wilderness first aid kits pre-loaded with your exact route, checked and charged before every single handout.
+				</p>
+				
+				
+			  </div>
+
+			  <div class="lg:col-span-5">
+				<div class="bg-stone-900 border border-stone-800 p-6 rounded-3xl shadow-2xl relative">
+				  <div class="flex items-center justify-between border-b border-stone-800 pb-4 mb-6">
+					<span class="text-xs font-bold text-stone-400 uppercase tracking-wider">Safety Tech Specs</span>
+				  </div>
+
+				  <div class="flex items-center gap-4 mb-4 p-3 rounded-xl bg-stone-950/60 border border-stone-800/80">
+					<div class="w-10 h-10 rounded-lg bg-amber-500/20 text-amber-400 font-bold text-lg flex items-center justify-center shrink-0">📍</div>
+					<div>
+					  <h4 class="font-bold text-white text-sm">310 Units in Rotation</h4>
+					  <p class="text-xs text-stone-400">Garmin & InReach devices calibrated daily.</p>
+					</div>
+				  </div>
+
+				  <div class="flex items-center gap-4 mb-4 p-3 rounded-xl bg-stone-950/60 border border-stone-800/80">
+					<div class="w-10 h-10 rounded-lg bg-emerald-500/20 text-emerald-400 font-bold text-lg flex items-center justify-center shrink-0">⚡</div>
+					<div>
+					  <h4 class="font-bold text-white text-sm">100% Pre-loaded GPX</h4>
+					  <p class="text-xs text-stone-400">Zero configuration needed at trailhead.</p>
+					</div>
+				  </div>
+
+				  <div class="flex items-center gap-4 p-3 rounded-xl bg-stone-950/60 border border-stone-800/80">
+					<div class="w-10 h-10 rounded-lg bg-blue-500/20 text-blue-400 font-bold text-lg flex items-center justify-center shrink-0">🔋</div>
+					<div>
+					  <h4 class="font-bold text-white text-sm">24hr Battery Audit</h4>
+					  <p class="text-xs text-stone-400">Recharged & stress-tested before handout.</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+			</div>
+		  </div>
+		</section>
+
+		<!--2nd section--->
+		<section class="bg-amber-500 text-stone-950 py-4 font-bold overflow-hidden shadow-inner">
+
+		  <marquee behavior="scroll" direction="left" scrollamount="8" class="flex items-center gap-12 text-sm tracking-wide uppercase">
+			<span>✦ GPX Routes Pre-loaded</span>
+			<span class="mx-6">•</span>
+			<span>✦ 24-Hour Battery & Signal Audits</span>
+			<span class="mx-6">•</span>
+			<span>✦ Satellite Beacons Tested Daily</span>
+			<span class="mx-6">•</span>
+			<span>✦ Restocked First Aid Kits</span>
+			<span class="mx-6">•</span>
+			<span>✦ Extended 10,000mAh Power Banks Included</span>
+			<span class="mx-6">•</span>
+			<span>✦ 38 Trailhead Pickup Desks</span>
+		  </marquee>
+		</section>
+
+		<section class="bg-stone-100 py-20 border-b border-stone-200">
+		  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-12 gap-12 items-center">
+
+			<div class="lg:col-span-6 relative">
+			  <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white h-[400px]">
+				<img src="img/wooden_world_map_pins.jpg" alt="" class="w-full h-full object-cover" />
+			  </div>
+			</div>
+
+			<div class="lg:col-span-6 space-y-6">
+			  <h2 class="font-serif font-bold text-3xl sm:text-4xl text-stone-900 leading-tight">
+				Safety gear that already knows your route
+			  </h2>
+			  <p class="text-stone-600 leading-relaxed">
+				GPS units are pre-loaded with your specific expedition's GPX file before pickup, and satellite beacons are function-tested within 24 hours of every rental — not just at initial purchase.
+			  </p>
+
+			  <ul class="space-y-3 pt-2">
+				<li class="flex items-center gap-3 bg-white p-3.5 rounded-xl border border-stone-200 shadow-sm">
+				  <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+				  <span class="text-stone-800 font-semibold text-sm">GPX route pre-loaded onto rented GPS units</span>
+				</li>
+				<li class="flex items-center gap-3 bg-white p-3.5 rounded-xl border border-stone-200 shadow-sm">
+				  <span class="w-2.5 h-2.5 rounded-full bg-emerald-600"></span>
+				  <span class="text-stone-800 font-semibold text-sm">Satellite beacons function-tested every 24 hours</span>
+				</li>
+				<li class="flex items-center gap-3 bg-white p-3.5 rounded-xl border border-stone-200 shadow-sm">
+				  <span class="w-2.5 h-2.5 rounded-full bg-blue-600"></span>
+				  <span class="text-stone-800 font-semibold text-sm">First aid kits restocked item-by-item after each trip</span>
+				</li>
+			  </ul>
+			</div>
+
+		  </div>
+		</section>
+
+		<!--3rd section--->
+		<section class="bg-stone-900 text-white py-20">
+		  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+			<div class="mb-12">
+			  <h2 class="font-serif font-bold text-3xl sm:text-4xl text-stone-100 mt-1">What to expect from us</h2>
+			</div>
+
+			<div class="grid lg:grid-cols-3 gap-6">
+
+			  <div class="lg:col-span-1 rounded-3xl bg-amber-500 text-stone-950 p-8 flex flex-col justify-between relative overflow-hidden shadow-xl">
+				<div>
+				  <span class="text-xs font-bold uppercase tracking-widest bg-stone-950 text-amber-400 px-3 py-1 rounded-full">Standard Procedure</span>
+				  <h3 class="font-serif font-bold text-3xl mt-6 leading-tight">Zero-headache setup at the trailhead.</h3>
+				  <p class="mt-4 text-xs font-medium text-stone-900 leading-relaxed">We sync your waypoints, calibrate battery modules, and test communication frequencies before handing over the keys.</p>
+				</div>
+				<div class="mt-8 text-5xl font-serif font-bold opacity-20">01 / FIELD</div>
+			  </div>
+
+			  <div class="lg:col-span-2 grid sm:grid-cols-2 gap-6">
+				<div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-3xl">
+				  <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 font-bold flex items-center justify-center mb-4">01</div>
+				  <h4 class="font-serif font-bold text-xl text-white">Route Pre-Loaded</h4>
+				  <p class="text-xs text-stone-400 mt-2 leading-relaxed">GPS units arrive pre-configured with your exact expedition track so you can turn on and walk.</p>
+				</div>
+
+				<div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-3xl">
+				  <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 font-bold flex items-center justify-center mb-4">02</div>
+				  <h4 class="font-serif font-bold text-xl text-white">Beacon Testing</h4>
+				  <p class="text-xs text-stone-400 mt-2 leading-relaxed">Every satellite beacon undergoes a satellite test loop within 24 hours of dispatch.</p>
+				</div>
+
+				<div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-3xl">
+				  <div class="w-10 h-10 rounded-xl bg-red-500/10 text-red-400 font-bold flex items-center justify-center mb-4">03</div>
+				  <h4 class="font-serif font-bold text-xl text-white">Audited Medical Kits</h4>
+				  <p class="text-xs text-stone-400 mt-2 leading-relaxed">First aid components are verified item-by-item after every single rental return.</p>
+				</div>
+
+				<div class="bg-stone-800/80 border border-stone-700/80 p-6 rounded-3xl">
+				  <div class="w-10 h-10 rounded-xl bg-blue-500/10 text-blue-400 font-bold flex items-center justify-center mb-4">04</div>
+				  <h4 class="font-serif font-bold text-xl text-white">Multi-Day Power Packs</h4>
+				  <p class="text-xs text-stone-400 mt-2 leading-relaxed">10,000mAh rugged batteries are bundled standard for trips over two days.</p>
+				</div>
+			  </div>
+
+			</div>
+		  </div>
+		</section>
+
+		<!--4th section--->
+		<section class="max-w-7xl mx-auto px-5 sm:px-8 py-20">
+		  <div class="mb-12">
+			<h2 class="font-serif font-bold text-3xl sm:text-4xl text-stone-900 mt-1">Popular safety equipment</h2>
+		  </div>
+
+		  <div class="space-y-4">
+
+			<div class="bg-white border border-stone-200 rounded-2xl p-4 sm:p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 hover:border-amber-500 hover:shadow-lg transition-all">
+			  <div class="flex items-center gap-5">
+				<img src="img/tour_bus_mountain_dusk.jpg" alt="" class="w-20 h-20 rounded-xl object-cover shrink-0" />
+				<div>
+				  <h3 class="font-serif font-bold text-lg text-stone-900 mt-1">Handheld GPS Unit</h3>
+				  <p class="text-xs text-stone-500 max-w-md mt-0.5">Rugged outdoor navigation handheld loaded with your custom route waypoints.</p>
+				</div>
+			  </div>
+			  <div class="flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto pt-4 sm:pt-0 border-t sm:border-0 border-stone-100">
+				<span class="font-serif font-bold text-xl text-stone-900">12000<span class="text-xs text-stone-500 font-normal">/day</span></span>
+				<a href="#" class="mt-2 bg-emerald-900 text-white hover:bg-amber-600 text-xs font-bold px-4 py-2 rounded-lg transition-colors">Select Item</a>
+			  </div>
+			</div>
+
+			<div class="bg-white border border-stone-200 rounded-2xl p-4 sm:p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 hover:border-amber-500 hover:shadow-lg transition-all">
+			  <div class="flex items-center gap-5">
+				<img src="img/garmin_inreach_sos_device.jpg" alt="" class="w-20 h-20 rounded-xl object-cover shrink-0" />
+				<div>
+				  <h3 class="font-serif font-bold text-lg text-stone-900 mt-1">Satellite SOS Beacon</h3>
+				  <p class="text-xs text-stone-500 max-w-md mt-0.5">Global satellite communicator featuring 2-way messaging & instant SOS signaling.</p>
+				</div>
+			  </div>
+			  <div class="flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto pt-4 sm:pt-0 border-t sm:border-0 border-stone-100">
+				<span class="font-serif font-bold text-xl text-stone-900">15000<span class="text-xs text-stone-500 font-normal">/day</span></span>
+				<a href="#" class="mt-2 bg-emerald-900 text-white hover:bg-amber-600 text-xs font-bold px-4 py-2 rounded-lg transition-colors">Select Item</a>
+			  </div>
+			</div>
+
+			<div class="bg-white border border-stone-200 rounded-2xl p-4 sm:p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 hover:border-amber-500 hover:shadow-lg transition-all">
+			  <div class="flex items-center gap-5">
+				<img src="img/medical_kit_stethoscope_supplies.jpg" alt="" class="w-20 h-20 rounded-xl object-cover shrink-0" />
+				<div>
+				  <h3 class="font-serif font-bold text-lg text-stone-900 mt-1">Wilderness First Aid Kit</h3>
+				  <p class="text-xs text-stone-500 max-w-md mt-0.5">Heavy-duty waterproof medical case stocked for wilderness groups up to 6 climbers.</p>
+				</div>
+			  </div>
+			  <div class="flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto pt-4 sm:pt-0 border-t sm:border-0 border-stone-100">
+				<span class="font-serif font-bold text-xl text-stone-900">8000<span class="text-xs text-stone-500 font-normal">/day</span></span>
+				<a href="#" class="mt-2 bg-emerald-900 text-white hover:bg-amber-600 text-xs font-bold px-4 py-2 rounded-lg transition-colors">Select Item</a>
+			  </div>
+			</div>
+
+		  </div>
+		</section>
+
+		<!--5th section--->
+		<section class="bg-stone-100 py-20 border-y border-stone-200">
+		  <div class="max-w-4xl mx-auto px-5 sm:px-8">
+			<div class="text-center mb-16">
+			  <h2 class="font-serif font-bold text-3xl sm:text-4xl text-stone-900 mt-1">How safety equipment rental works</h2>
+			</div>
+
+			<div class="relative border-l-2 border-stone-300 ml-4 sm:ml-32 space-y-12">
+	
+			  <div class="relative pl-8">
+				<span class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-stone-900 text-white font-bold flex items-center justify-center text-sm shadow-md">1</span>
+				<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+				  <h3 class="font-bold text-stone-900 text-lg">Confirm your route</h3>
+				  <p class="text-xs text-stone-600 mt-2 leading-relaxed">Provide your expedition GPX file online so our technicians can pre-load your route onto the device before you arrive.</p>
+				</div>
+			  </div>
+
+			  <div class="relative pl-8">
+				<span class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-stone-900 text-white font-bold flex items-center justify-center text-sm shadow-md">2</span>
+				<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+				  <h3 class="font-bold text-stone-900 text-lg">Pickup and function check</h3>
+				  <p class="text-xs text-stone-600 mt-2 leading-relaxed">Run a 60-second beacon and GPS signal verification test together with our team at the trailhead counter.</p>
+				</div>
+			  </div>
+
+			  <div class="relative pl-8">
+				<span class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-stone-900 text-white font-bold flex items-center justify-center text-sm shadow-md">3</span>
+				<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+				  <h3 class="font-bold text-stone-900 text-lg">Carry throughout your trip</h3>
+				  <p class="text-xs text-stone-600 mt-2 leading-relaxed">Keep your beacon accessible on your exterior shoulder strap for fast SOS deployment if an emergency occurs.</p>
+				</div>
+			  </div>
+
+			  <div class="relative pl-8">
+				<span class="absolute -left-4 top-0 w-8 h-8 rounded-full bg-stone-900 text-white font-bold flex items-center justify-center text-sm shadow-md">4</span>
+				<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+				  <h3 class="font-bold text-stone-900 text-lg">Drop off & instant restock</h3>
+				  <p class="text-xs text-stone-600 mt-2 leading-relaxed">Hand the kit back at any partner drop-off point. We wipe user data and immediately audit medical inventory.</p>
+				</div>
+			  </div>
+
+			</div>
+		  </div>
+		</section>
+
+		<!--6th section--->
+		<section class="bg-stone-50 py-20 border-b border-stone-200">
+		  <div class="max-w-6xl mx-auto px-5 sm:px-8">
+			<div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+			  <div>
+				<h2 class="font-serif font-bold text-3xl sm:text-4xl text-stone-900 mt-1">Trusted on remote trails</h2>
+			  </div>
+			</div>
+
+			<div class="grid md:grid-cols-2 gap-8">
+
+			  <div class="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm relative">
+				<p class="text-stone-700 leading-relaxed text-sm font-medium">
+				  GPS arrived pre-loaded with our exact route — one less thing to set up at 6am before embarking into high alpine territory.
+				</p>
+				<div class="mt-6 flex items-center gap-3">
+				  <div class="w-10 h-10 rounded-full bg-emerald-800 text-white font-bold flex items-center justify-center text-xs">HA</div>
+				  <div>
+					<h4 class="font-bold text-stone-900 text-sm">Henrik Aas</h4>
+					<p class="text-xs text-stone-500">Mumbai</p>
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm relative">
+				<p class="text-stone-700 leading-relaxed text-sm font-medium">
+				  Beacon function test at pickup was reassuring before heading somewhere with zero cellular connectivity. Exceptional service.
+				</p>
+				<div class="mt-6 flex items-center gap-3">
+				  <div class="w-10 h-10 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center text-xs">AR</div>
+				  <div>
+					<h4 class="font-bold text-stone-900 text-sm">Aditi Rao</h4>
+					<p class="text-xs text-stone-500">Jaipur</p>
+				  </div>
+				</div>
+			  </div>
+
+			</div>
+		  </div>
+		</section>
+
+		<!--7th section--->
+		<section class="bg-stone-100 py-20">
+		  <div class="max-w-6xl mx-auto px-5 sm:px-8">
+			<div class="text-center max-w-xl mx-auto mb-12">
+			  <h2 class="font-serif font-bold text-3xl sm:text-4xl text-stone-900 mt-1">Frequently asked questions</h2>
+			</div>
+
+			<div class="grid md:grid-cols-3 gap-6">
+			  
+			  <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+				<h3 class="font-bold text-stone-900 text-base mb-2">Do I need a satellite subscription?</h3>
+				<p class="text-xs text-stone-600 leading-relaxed">No. Active emergency connectivity and monitoring services are included standard with your daily rental rate.</p>
+			  </div>
+
+			  <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+				<h3 class="font-bold text-stone-900 text-base mb-2">What's in the first aid kit?</h3>
+				<p class="text-xs text-stone-600 leading-relaxed">Kits include trauma bandages, wound care, splints, and blister treatments itemized to match your group size.</p>
+			  </div>
+
+			  <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+				<h3 class="font-bold text-stone-900 text-base mb-2">Can I load my own custom GPX route?</h3>
+				<p class="text-xs text-stone-600 leading-relaxed">Yes! Simply upload your custom GPX file during checkout and our technicians will sync it to the device before pickup.</p>
+			  </div>
+
+			</div>
+		  </div>
+		</section>
+	
+		<!--footer section--->
+			<footer class="bg-emerald-600 text-white/80 mt-16">
+			  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+			  
+				<div>
+				  <div class="flex items-center gap-3 mb-4">
+					<span class="font-serif font-bold text-white">TRAILHEAD</span>
+				  </div>
+				  <p class="text-sm text-white/50 leading-relaxed">Adventure travel, eco-lodge bookings and outdoor gear for people who plan their year around a trailhead.</p>
+				</div>
+				
+				<div>
+				  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Explore</h4>
+				  <ul class="space-y-2 text-sm text-white/60">
+					<li><a href="expeditions.html" class="hover:text-amber-500">Expeditions</a></li>
+					<li><a href="stays-lodges.html" class="hover:text-amber-500">Stays &amp; Lodges</a></li>
+					<li><a href="gear-rentals.html" class="hover:text-amber-500">Gear &amp; Rentals</a></li>
+					<li><a href="guides-safety.html" class="hover:text-amber-500">Guides &amp; Safety</a></li>
+				  </ul>
+				</div>
+				
+				<div>
+				  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Company</h4>
+				  <ul class="space-y-2 text-sm text-white/60">
+					<li><a href="#" class="hover:text-amber-500">About TrailHead</a></li>
+					<li><a href="#" class="hover:text-amber-500">Careers</a></li>
+					<li><a href="#" class="hover:text-amber-500">Field Journal</a></li>
+					<li><a href="#" class="hover:text-amber-500">Contact</a></li>
+				  </ul>
+				</div>
+				
+				<div>
+				  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Support</h4>
+				  <ul class="space-y-2 text-sm text-white/60">
+					<li><a href="wilderness-first-aid-guide.html" class="hover:text-amber-500">Safety &amp; First Aid</a></li>
+					<li><a href="weather-avalanche-alerts.html" class="hover:text-amber-500">Weather Alerts</a></li>
+					<li><a href="#" class="hover:text-amber-500">Cancellations</a></li>
+					<li><a href="#" class="hover:text-amber-500">Terms &amp; Privacy</a></li>
+				  </ul>
+				</div>
+				
+			  </div>
+			  
+			  <div class="border-t border-white/10">
+				<div class="max-w-7xl mx-auto px-5 sm:px-8 py-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-white/40">
+				  <p>&copy; 2026 TrailHead Adventures. All trails lead somewhere.</p>
+				  <p>Privacy Policy &middot; Terms &middot; Accessibility</p>
+				</div>
+			  </div>
+			  
+			</footer>

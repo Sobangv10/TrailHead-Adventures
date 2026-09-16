@@ -1,0 +1,540 @@
+<html>
+	<head>
+		<title> gear rentals </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	
+	<body>
+	
+		<!--navbar--->
+	<nav class="sticky top-0 z-50 bg-white shadow-md border-b border-amber-500">
+		<div class="max-w-6xl mx-auto px-5 sm:px-8 h-20 flex items-center">
+			<div class="flex">
+				<a href="index.html" class="flex items-center gap-3">
+					<svg width="34" height="34" viewBox="0 0 100 100"><circle cx="50" cy="50" r="47" fill="#064e3b"/><path d="M15 68 L38 32 L52 54 L60 42 L85 68 Z" fill="#f5f5f4"/><circle cx="68" cy="28" r="8" fill="#d97706"/></svg>
+					<span class="font-serif font-bold text-lg tracking-wide text-emerald-900">TRAIL<span class="text-amber-600">HEAD</span></span>
+				</a>
+			</div>
+
+			<label for="menuToggle" class="lg:hidden ml-auto cursor-pointer p-2">
+				<svg xmlns="http://www.w3.org/2000/svg"class="w-8 h-8 text-emerald-900"fill="none"viewBox="0 0 24 24"stroke="currentColor"><path stroke-linecap="round"stroke-linejoin="round"stroke-width="2"d="M4 6h16M4 12h16M4 18h16"/></svg>
+			</label>
+
+			<ul class="hidden lg:flex items-center gap-8 font-medium text-sm text-stone-700 ml-auto">
+				<li>
+					<a href="index.html" class="px-3 py-2 rounded hover:text-amber-600">Home</a>
+				</li>
+
+				<li class="relative">
+					<input type="checkbox" id="about1" class="hidden peer">
+
+					<label for="about1" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "expeditions.html">Expeditions</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="mountain-trekking-routes.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Mountain Trekking Routes</a></li>
+						<li><a href="river-kayaking-rafting.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">River Kayaking &amp; Rafting</a></li>
+						<li><a href="forest-camping-safaris.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Forest Camping Safaris</a></li>
+						<li><a href="desert-survival-camps.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Desert Survival Camps</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about2" class="hidden peer">
+
+					<label for="about2" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "stays-lodges.html">Stays &amp; Lodge</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="eco-friendly-cabins.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Eco-Friendly Cabins</a></li>
+						<li><a href="mountain-glamping-tents.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Mountain Glamping Tents</a></li>
+						<li><a href="treehouse-resorts.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Treehouse Resorts</a></li>
+						<li><a href="wilderness-hostels.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Wilderness Hostels</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about3" class="hidden peer">
+
+					<label for="about3" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "gear-rentals.html">Gear &amp; Rentals</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="camping-tent-gear.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Camping &amp; Tent Gear</a></li>
+						<li><a href="trekking-apparel-boots.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Trekking Apparel &amp; Boots</a></li>
+						<li><a href="gps-safety-equipment.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">GPS &amp; Safety Equipment</a></li>
+						<li><a href="complete-backpacking-packages.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Complete Backpacking Packages</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about4" class="hidden peer">
+
+					<label for="about4" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "guides-safety.html">Guides &amp; Safety</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="certified-local-guides.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Certified Local Guides</a></li>
+						<li><a href="trail-maps-gpx-downloads.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Trail Maps &amp; GPX Downloads</a></li>
+						<li><a href="wilderness-first-aid-guide.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Wilderness First Aid Guide</a></li>
+						<li><a href="weather-avalanche-alerts.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Weather &amp; Avalanche Alerts</a></li>
+					</ul>
+
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!-- Mobile Navbar--->
+		<input type="checkbox" id="menuToggle" class="hidden peer/menu">
+		<div class="hidden peer-checked/menu:block lg:hidden bg-white border-t border-stone-200">
+
+			<div class="px-5 py-4 space-y-1 font-medium">
+
+				<a href="index.html" class="block py-2 hover:text-amber-600">
+					Home
+				</a>
+
+				<input type="checkbox" id="mobileExp" class="hidden peer/exp">
+
+				<label for="mobileExp" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "expeditions.html">Expeditions</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/exp:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="mountain-trekking-routes.html" class="block py-1.5 hover:text-amber-600">Mountain Trekking Routes</a>
+					<a href="river-kayaking-rafting.html" class="block py-1.5 hover:text-amber-600">River Kayaking &amp; Rafting</a>
+					<a href="forest-camping-safaris.html" class="block py-1.5 hover:text-amber-600">Forest Camping Safaris</a>
+					<a href="desert-survival-camps.html" class="block py-1.5 hover:text-amber-600">Desert Survival Camps</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileStay" class="hidden peer/stay">
+
+				<label for="mobileStay" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "stays-lodges.html">Stays &amp; Lodges</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/stay:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="eco-friendly-cabins.html" class="block py-1.5 hover:text-amber-600">Eco-Friendly Cabins</a>
+					<a href="mountain-glamping-tents.html" class="block py-1.5 hover:text-amber-600">Mountain Glamping Tents</a>
+					<a href="treehouse-resorts.html" class="block py-1.5 hover:text-amber-600">Treehouse Resorts</a>
+					<a href="wilderness-hostels.html" class="block py-1.5 hover:text-amber-600">Wilderness Hostels</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileGear" class="hidden peer/gear">
+
+				<label for="mobileGear" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "gear-rentals.html">Gear &amp; Rentals</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/gear:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="camping-tent-gear.html" class="block py-1.5 hover:text-amber-600">Camping &amp; Tent Gear</a>
+					<a href="trekking-apparel-boots.html" class="block py-1.5 hover:text-amber-600">Trekking Apparel &amp; Boots</a>
+					<a href="gps-safety-equipment.html" class="block py-1.5 hover:text-amber-600">GPS &amp; Safety Equipment</a>
+					<a href="complete-backpacking-packages.html" class="block py-1.5 hover:text-amber-600">Complete Backpacking Packages</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileGuide" class="hidden peer/guide">
+
+				<label for="mobileGuide" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "guides-safety.html">Guides &amp; Safety</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/guide:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="certified-local-guides.html" class="block py-1.5 hover:text-amber-600">Certified Local Guides</a>
+					<a href="trail-maps-gpx-downloads.html" class="block py-1.5 hover:text-amber-600">Trail Maps &amp; GPX Downloads</a>
+					<a href="wilderness-first-aid-guide.html" class="block py-1.5 hover:text-amber-600">Wilderness First Aid Guide</a>
+					<a href="weather-avalanche-alerts.html" class="block py-1.5 hover:text-amber-600">Weather &amp; Avalanche Alerts</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</nav>
+	
+		<!--1st section--->
+		<section class="relative bg-stone-900 overflow-hidden">
+
+		  <img src="img/hiker_valley_sunset.jpg" alt="" class="absolute inset-0 w-full h-full object-cover">
+
+		  <div class="absolute inset-0 bg-gradient-to-r from-stone-50 via-stone-50/90 sm:via-stone-50/80 to-stone-50/10"></div>
+
+		  <div class="relative max-w-7xl mx-auto px-5 sm:px-8 py-8 sm:py-10">
+
+			<div class="max-w-2xl py-6 sm:py-10">
+			  <p class="mb-5"></p>
+
+			  <h1 class="font-sans font-extrabold uppercase text-5xl sm:text-6xl leading-[0.95] tracking-tight text-stone-900">
+				Local.<br>
+				<span class="text-emerald-800">Certified.</span><br>
+				Re-checked<br>
+				every year.
+			  </h1>
+
+			  <div class="w-14 h-0.5 bg-emerald-800 mt-8 mb-8"></div>
+
+			  <p class="text-stone-600 text-lg leading-relaxed max-w-md">Every guide profile lists certifications, home region and route specialities — so you're booking a person, not a faceless tour operator.</p>
+
+			  <div class="mt-9"></div>
+
+			  <div class="mt-14 grid grid-cols-3 max-w-md gap-6">
+				<div class="flex flex-col items-start">
+				  <div class="flex items-center justify-center mb-3"></div>
+				  <p class="font-sans text-2xl font-extrabold tracking-tighter text-stone-900">62</p>
+				  <p class="font-mono text-xs uppercase tracking-widest text-stone-600 mt-1">Certified guides</p>
+				</div>
+				<div class="flex flex-col items-start">
+				  <div class="flex items-center justify-center mb-3"></div>
+				  <p class="font-sans text-2xl font-extrabold tracking-tighter text-stone-900">100%</p>
+				  <p class="font-mono text-xs uppercase tracking-widest text-stone-600 mt-1">First-aid certified</p>
+				</div>
+				<div class="flex flex-col items-start">
+				  <div class="flex items-center justify-center mb-3"></div>
+				  <p class="font-sans text-2xl font-extrabold tracking-tighter text-stone-900">9.4/10</p>
+				  <p class="font-mono text-xs uppercase tracking-widest text-stone-600 mt-1">Avg. guide rating</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</section>
+
+		<!--2nd section--->
+		<div class = "mt-10">
+		<section class="bg-stone-900">
+		  <div class="grid grid-cols-1 sm:grid-cols-2 gap-1">
+
+			<div class="relative aspect-[4/3] sm:aspect-[16/10] overflow-hidden group">
+			  <img src="img/hiker_river_valley_sunset.jpg" alt="" class="absolute inset-0 w-full h-full object-cover">
+			  <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+			  <div class="absolute inset-x-0 bottom-0 p-6 sm:p-8">
+				<h3 class="text-white font-sans font-extrabold uppercase tracking-tight text-xl sm:text-2xl leading-snug">Guides who live near the route</h3>
+				<p class="mt-2 text-stone-200 text-sm sm:text-base leading-relaxed max-w-md">TrailHead guides are based in the regions they lead in, not flown in for the season. Profiles list years guiding, certifications held and the specific routes each guide runs most often.</p>
+			  </div>
+			</div>
+
+			<div class="relative aspect-[4/3] sm:aspect-[16/10] overflow-hidden group">
+			  <img src="img/first_aid_kit_forest.jpg" alt="Wilderness first aid kit and gear in the forest" class="absolute inset-0 w-full h-full object-cover">
+			  <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+			  <div class="absolute inset-x-0 bottom-0 p-6 sm:p-8">
+				<h3 class="text-white font-sans font-extrabold uppercase tracking-tight text-xl sm:text-2xl leading-snug">Wilderness first aid certification re-checked annually</h3>
+				<p class="mt-2 text-stone-200 text-sm sm:text-base leading-relaxed max-w-md">Safety is our priority. Every trail guide's wilderness first aid certification is re-checked each year, so you're in capable hands on every adventure.</p>
+			  </div>
+			</div>
+
+			<div class="relative aspect-[4/3] sm:aspect-[16/10] overflow-hidden group">
+			  <img src="img/trail_signpost_map_mountains.jpg" alt="Hiker reading a map beside a trail signpost" class="absolute inset-0 w-full h-full object-cover">
+			  <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+			  <div class="absolute inset-x-0 bottom-0 p-6 sm:p-8">
+				<h3 class="text-white font-sans font-extrabold uppercase tracking-tight text-xl sm:text-2xl leading-snug">Route specialities listed per guide profile</h3>
+				<p class="mt-2 text-stone-200 text-sm sm:text-base leading-relaxed max-w-md">Know your guide's strengths. Each profile highlights the routes they run most, from alpine treks to wildlife trails — so you choose the right guide for your journey.</p>
+			  </div>
+			</div>
+
+			<div class="relative aspect-[4/3] sm:aspect-[16/10] overflow-hidden group">
+			  <img src="img/group_hiking_trail_sunset.jpg" alt="Group of hikers walking a trail at sunset" class="absolute inset-0 w-full h-full object-cover">
+			  <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+			  <div class="absolute inset-x-0 bottom-0 p-6 sm:p-8">
+				<h3 class="text-white font-sans font-extrabold uppercase tracking-tight text-xl sm:text-2xl leading-snug">Guide-to-group ratio capped, never overbooked</h3>
+				<p class="mt-2 text-stone-200 text-sm sm:text-base leading-relaxed max-w-md">Smaller groups for a better experience — strict guide-to-group ratios ensure you get more attention, safety and a truly immersive journey.</p>
+			  </div>
+			</div>
+
+		  </div>
+		</section>
+		</div>
+
+		<!--3rd section--->
+		<div class="mt-15">
+		  <section class="bg-white border-y border-stone-200">
+			<div class="max-w-7xl mx-auto px-5 sm:px-8 py-16">
+			  <p class="mb-3"></p>
+			  <h2 class="font-sans font-extrabold uppercase tracking-tighter leading-none text-3xl sm:text-5xl mb-10 max-w-xl">What to expect</h2>
+
+			  <div class="relative">
+
+				<input type="radio" name="detail-tab" id="tab-1" class="peer/tab1 hidden" checked>
+				<input type="radio" name="detail-tab" id="tab-2" class="peer/tab2 hidden">
+				<input type="radio" name="detail-tab" id="tab-3" class="peer/tab3 hidden">
+				<input type="radio" name="detail-tab" id="tab-4" class="peer/tab4 hidden">
+
+				<div class="hidden peer-checked/tab1:grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+				  <div class="relative aspect-[4/3] rounded-2xl overflow-hidden">
+					<img src="img/guide_village_valley_hiker.jpg" alt="Guide overlooking a river valley" class="absolute inset-0 w-full h-full object-cover">
+				  </div>
+				  <div>
+					<p class="font-mono text-xs uppercase tracking-widest text-stone-400 mb-4">01 / 04</p>
+
+					<h3 class="font-sans font-extrabold uppercase tracking-tight text-2xl sm:text-3xl mb-4">Region-based guiding</h3>
+					<p class="text-stone-600 leading-relaxed max-w-md">Guides live in or near the region they lead treks in, not rotated in from elsewhere for peak season.</p>
+					<div class="mt-10 flex items-center gap-8">
+					  <label for="tab-4" class="cursor-pointer font-mono text-xs uppercase tracking-widest text-stone-500 hover:text-emerald-800">&larr; Prev</label>
+					  <label for="tab-2" class="cursor-pointer font-mono text-xs uppercase tracking-widest text-stone-900 hover:text-emerald-800">Next &rarr;</label>
+					</div>
+				  </div>
+				</div>
+
+				<div class="hidden peer-checked/tab2:grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+				  <div class="relative aspect-[4/3] rounded-2xl overflow-hidden">
+					<img src="img/first_aid_training_river.jpg" alt="Wilderness first aid kit and gear" class="absolute inset-0 w-full h-full object-cover">
+				  </div>
+				  <div>
+					<p class="font-mono text-xs uppercase tracking-widest text-stone-400 mb-4">02 / 04</p>
+
+					<h3 class="font-sans font-extrabold uppercase tracking-tight text-2xl sm:text-3xl mb-4">Annual re-certification</h3>
+					<p class="text-stone-600 leading-relaxed max-w-md">Wilderness first aid and, where relevant, swiftwater rescue certifications are renewed every year.</p>
+					<div class="mt-10 flex items-center gap-8">
+					  <label for="tab-1" class="cursor-pointer font-mono text-xs uppercase tracking-widest text-stone-500 hover:text-emerald-800">&larr; Prev</label>
+					  <label for="tab-3" class="cursor-pointer font-mono text-xs uppercase tracking-widest text-stone-900 hover:text-emerald-800">Next &rarr;</label>
+					</div>
+				  </div>
+				</div>
+
+				<div class="hidden peer-checked/tab3:grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+				  <div class="relative aspect-[4/3] rounded-2xl overflow-hidden">
+					<img src="img/guide_route_specialties_sign.jpg" alt="Guide reading a map beside a trail signpost" class="absolute inset-0 w-full h-full object-cover">
+				  </div>
+				  <div>
+					<p class="font-mono text-xs uppercase tracking-widest text-stone-400 mb-4">03 / 04</p>
+
+					<h3 class="font-sans font-extrabold uppercase tracking-tight text-2xl sm:text-3xl mb-4">Named route specialities</h3>
+					<p class="text-stone-600 leading-relaxed max-w-md">Each profile lists the specific routes a guide runs most, so you know their actual experience.</p>
+					<div class="mt-10 flex items-center gap-8">
+					  <label for="tab-2" class="cursor-pointer font-mono text-xs uppercase tracking-widest text-stone-500 hover:text-emerald-800">&larr; Prev</label>
+					  <label for="tab-4" class="cursor-pointer font-mono text-xs uppercase tracking-widest text-stone-900 hover:text-emerald-800">Next &rarr;</label>
+					</div>
+				  </div>
+				</div>
+
+				<div class="hidden peer-checked/tab4:grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+				  <div class="relative aspect-[4/3] rounded-2xl overflow-hidden">
+					<img src="img/group_hiking_mountain_valley.jpg" alt="Small trekking group walking a trail at sunset" class="absolute inset-0 w-full h-full object-cover">
+				  </div>
+				  <div>
+					<p class="font-mono text-xs uppercase tracking-widest text-stone-400 mb-4">04 / 04</p>
+
+					<h3 class="font-sans font-extrabold uppercase tracking-tight text-2xl sm:text-3xl mb-4">Capped group ratios</h3>
+					<p class="text-stone-600 leading-relaxed max-w-md">Guides never take more travellers than their listed group ratio, even in peak season.</p>
+					<div class="mt-10 flex items-center gap-8">
+					  <label for="tab-3" class="cursor-pointer font-mono text-xs uppercase tracking-widest text-stone-500 hover:text-emerald-800">&larr; Prev</label>
+					  <label for="tab-1" class="cursor-pointer font-mono text-xs uppercase tracking-widest text-stone-900 hover:text-emerald-800">Next &rarr;</label>
+					</div>
+				  </div>
+				</div>
+
+			  </div>
+			</div>
+		  </section>
+		</div>
+
+		<!--4th sectuon--->
+		<section class="bg-white">
+		  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-16">
+			<p class="mb-3"></p>
+			<h2 class="font-sans font-extrabold uppercase tracking-tighter leading-none text-3xl sm:text-5xl mb-10">Featured guides</h2>
+
+			<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12">
+
+			  <div class="rounded-xl border border-stone-200 overflow-hidden bg-white hover:shadow-lg">
+				<div class="relative">
+				  <img src="img/Kavin.jpg" alt="" class="w-full h-56 object-cover object-[25%_15%]">
+				  <div class="absolute -bottom-8 right-6 w-16 h-16 rounded-full border-4 border-white overflow-hidden shadow-md">
+					<img src="img/kav.jpg" alt="" class="w-full h-full object-cover">
+				  </div>
+				</div>
+				<div class="px-6 pt-10 pb-6">
+				  <p class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600 mb-2">Mountain - 12 yrs</p>
+				  <h3 class="font-sans font-extrabold uppercase tracking-tight text-xl mb-2">Kavin</h3>
+				  <p class="text-sm text-stone-600 leading-relaxed mb-4">Leads the Himalayan Ridge Trail and Alpine Summit Circuit.</p>
+				  <a href="#" class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600">View profile</a>
+				</div>
+			  </div>
+
+			  <div class="rounded-xl border border-stone-200 overflow-hidden bg-white hover:shadow-lg">
+				<div class="relative">
+				  <img src="img/Dushara.jpg" alt="" class="w-full h-56 object-cover">
+				  <div class="absolute -bottom-8 right-6 w-16 h-16 rounded-full border-4 border-white overflow-hidden shadow-md">
+					<img src="img/dus.jpg" alt="" class="w-full h-full object-cover">
+				  </div>
+				</div>
+				<div class="px-6 pt-10 pb-6">
+				  <p class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600 mb-2">River - 8 yrs</p>
+				  <h3 class="font-sans font-extrabold uppercase tracking-tight text-xl mb-2">Dushara Vijayan</h3>
+				  <p class="text-sm text-stone-600 leading-relaxed mb-4">Rescue-certified lead for whitewater and multi-day river routes.</p>
+				  <a href="#" class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600">View profile</a>
+				</div>
+			  </div>
+
+			  <div class="rounded-xl border border-stone-200 overflow-hidden bg-white hover:shadow-lg">
+				<div class="relative">
+				  <img src="img/Manikandan.jpg" alt="" class="w-full h-56 object-cover">
+				  <div class="absolute -bottom-8 right-6 w-16 h-16 rounded-full border-4 border-white overflow-hidden shadow-md">
+					<img src="img/man.jpg" alt="" class="w-full h-full object-cover">
+				  </div>
+				</div>
+				<div class="px-6 pt-10 pb-6">
+				  <p class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600 mb-2">Forest - 10 yrs</p>
+				  <h3 class="font-sans font-extrabold uppercase tracking-tight text-xl mb-2">Manikandan</h3>
+				  <p class="text-sm text-stone-600 leading-relaxed mb-4">Wildlife tracker leading night safaris and canopy routes.</p>
+				  <a href="#" class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600">View profile</a>
+				</div>
+			  </div>
+
+			  <div class="rounded-xl border border-stone-200 overflow-hidden bg-white hover:shadow-lg">
+				<div class="relative">
+				  <img src="img/Sannjana.jpg" alt="" class="w-full h-56 object-cover">
+				  <div class="absolute -bottom-8 right-6 w-16 h-16 rounded-full border-4 border-white overflow-hidden shadow-md">
+					<img src="img/san.jpg" alt="" class="w-full h-full object-cover">
+				  </div>
+				</div>
+				<div class="px-6 pt-10 pb-6">
+				  <p class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600 mb-2">Desert - 9 yrs</p>
+				  <h3 class="font-sans font-extrabold uppercase tracking-tight text-xl mb-2">Sanjana</h3>
+				  <p class="text-sm text-stone-600 leading-relaxed mb-4">Navigation specialist for dune and survival-skills routes.</p>
+				  <a href="#" class="font-mono text-xs uppercase tracking-widest text-emerald-800 hover:text-amber-600">View profile</a>
+				</div>
+			  </div>
+
+			</div>
+		  </div>
+		</section>
+
+		<!--5th section--->
+		<section class="bg-white border-y border-stone-200">
+		  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-16">
+			<h2 class="font-sans font-extrabold uppercase tracking-tighter leading-none text-3xl sm:text-5xl mb-10 max-w-xl">Booking with a guide</h2>
+			<div class="grid sm:grid-cols-2 gap-8"><div class="flex gap-4">
+				<div class="w-9 h-9 shrink-0 rounded-full bg-emerald-900 text-white flex items-center justify-center font-sans font-extrabold text-sm">1</div>
+				<div>
+				  <h3 class="font-sans font-extrabold uppercase tracking-tight">Browse by speciality</h3>
+				  <p class="text-sm text-stone-600 mt-1">Filter guides by terrain type and the specific route you're considering.</p>
+				</div>
+			  </div><div class="flex gap-4">
+				<div class="w-9 h-9 shrink-0 rounded-full bg-emerald-900 text-white flex items-center justify-center font-sans font-extrabold text-sm">2</div>
+				<div>
+				  <h3 class="font-sans font-extrabold uppercase tracking-tight">Check certifications</h3>
+				  <p class="text-sm text-stone-600 mt-1">Review each guide's current first aid and, where relevant, rescue certifications.</p>
+				</div>
+			  </div><div class="flex gap-4">
+				<div class="w-9 h-9 shrink-0 rounded-full bg-emerald-900 text-white flex items-center justify-center font-sans font-extrabold text-sm">3</div>
+				<div>
+				  <h3 class="font-sans font-extrabold uppercase tracking-tight">Confirm group ratio</h3>
+				  <p class="text-sm text-stone-600 mt-1">Note the guide's capped group size before booking a larger party.</p>
+				</div>
+			  </div><div class="flex gap-4">
+				<div class="w-9 h-9 shrink-0 rounded-full bg-emerald-900 text-white flex items-center justify-center font-sans font-extrabold text-sm">4</div>
+				<div>
+				  <h3 class="font-sans font-extrabold uppercase tracking-tight">Meet at the trailhead</h3>
+				  <p class="text-sm text-stone-600 mt-1">Guides run a briefing and gear check with your group before departure.</p>
+				</div>
+			  </div></div>
+		  </div>
+		</section>
+
+		<!--6th section--->
+		<section class="bg-emerald-950 text-white">
+		  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-14">
+			<h2 class="font-sans font-extrabold uppercase tracking-tighter text-2xl sm:text-4xl leading-none mb-8">Certified Local Guides at a glance</h2>
+			<div class="grid grid-cols-2 sm:grid-cols-4 gap-8"><div><p class="font-sans text-3xl font-extrabold tracking-tighter">62</p><p class="font-mono text-xs uppercase tracking-widest text-white/60 mt-2">Certified guides</p></div><div><p class="font-sans text-3xl font-extrabold tracking-tighter">100%</p><p class="font-mono text-xs uppercase tracking-widest text-white/60 mt-2">First-aid certified</p></div><div><p class="font-sans text-3xl font-extrabold tracking-tighter">Annual</p><p class="font-mono text-xs uppercase tracking-widest text-white/60 mt-2">Re-certification</p></div><div><p class="font-sans text-3xl font-extrabold tracking-tighter">9.4/10</p><p class="font-mono text-xs uppercase tracking-widest text-white/60 mt-2">Guide rating</p></div></div>
+		  </div>
+		</section>
+	
+		<!--footer section--->
+			<footer class="bg-emerald-600 text-white/80 mt-16">
+			  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+			  
+				<div>
+				  <div class="flex items-center gap-3 mb-4">
+					<span class="font-serif font-bold text-white">TRAILHEAD</span>
+				  </div>
+				  <p class="text-sm text-white/50 leading-relaxed">Adventure travel, eco-lodge bookings and outdoor gear for people who plan their year around a trailhead.</p>
+				</div>
+				
+				<div>
+				  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Explore</h4>
+				  <ul class="space-y-2 text-sm text-white/60">
+					<li><a href="expeditions.html" class="hover:text-amber-500">Expeditions</a></li>
+					<li><a href="stays-lodges.html" class="hover:text-amber-500">Stays &amp; Lodges</a></li>
+					<li><a href="gear-rentals.html" class="hover:text-amber-500">Gear &amp; Rentals</a></li>
+					<li><a href="guides-safety.html" class="hover:text-amber-500">Guides &amp; Safety</a></li>
+				  </ul>
+				</div>
+				
+				<div>
+				  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Company</h4>
+				  <ul class="space-y-2 text-sm text-white/60">
+					<li><a href="#" class="hover:text-amber-500">About TrailHead</a></li>
+					<li><a href="#" class="hover:text-amber-500">Careers</a></li>
+					<li><a href="#" class="hover:text-amber-500">Field Journal</a></li>
+					<li><a href="#" class="hover:text-amber-500">Contact</a></li>
+				  </ul>
+				</div>
+				
+				<div>
+				  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Support</h4>
+				  <ul class="space-y-2 text-sm text-white/60">
+					<li><a href="wilderness-first-aid-guide.html" class="hover:text-amber-500">Safety &amp; First Aid</a></li>
+					<li><a href="weather-avalanche-alerts.html" class="hover:text-amber-500">Weather Alerts</a></li>
+					<li><a href="#" class="hover:text-amber-500">Cancellations</a></li>
+					<li><a href="#" class="hover:text-amber-500">Terms &amp; Privacy</a></li>
+				  </ul>
+				</div>
+				
+			  </div>
+			  
+			  <div class="border-t border-white/10">
+				<div class="max-w-7xl mx-auto px-5 sm:px-8 py-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-white/40">
+				  <p>&copy; 2026 TrailHead Adventures. All trails lead somewhere.</p>
+				  <p>Privacy Policy &middot; Terms &middot; Accessibility</p>
+				</div>
+			  </div>
+			  
+			</footer>

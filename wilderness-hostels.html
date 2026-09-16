@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Wilderness Hostels | TrailHead</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	</head>
+	<body class="bg-stone-100 text-stone-900 font-sans antialiased selection:bg-amber-600 selection:text-white">
+
+		<!-- Navbar -->
+		<nav class="sticky top-0 z-50 bg-white shadow-md border-b border-amber-500">
+			<div class="max-w-6xl mx-auto px-5 sm:px-8 h-20 flex items-center">
+				<div class="flex">
+					<a href="index.html" class="flex items-center gap-3">
+						<svg width="34" height="34" viewBox="0 0 100 100"><circle cx="50" cy="50" r="47" fill="#064e3b"/><path d="M15 68 L38 32 L52 54 L60 42 L85 68 Z" fill="#f5f5f4"/><circle cx="68" cy="28" r="8" fill="#d97706"/></svg>
+						<span class="font-serif font-bold text-lg tracking-wide text-emerald-900">TRAIL<span class="text-amber-600">HEAD</span></span>
+					</a>
+				</div>
+				<label for="menuToggle" class="lg:hidden ml-auto cursor-pointer p-2 text-emerald-900">
+					<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+				</label>
+				<ul class="hidden lg:flex items-center gap-8 font-medium text-sm text-stone-700 ml-auto">
+					<li><a href="index.html" class="px-3 py-2 rounded hover:text-amber-600">Home</a></li>
+					<li><a href="expeditions.html" class="px-3 py-2 rounded hover:text-amber-600">Expeditions</a></li>
+					<li><a href="stays-lodges.html" class="px-3 py-2 rounded hover:text-amber-600 text-amber-600 font-bold">Stays &amp; Lodges</a></li>
+					<li><a href="gear-rentals.html" class="px-3 py-2 rounded hover:text-amber-600">Gear &amp; Rentals</a></li>
+					<li><a href="guides-safety.html" class="px-3 py-2 rounded hover:text-amber-600">Guides &amp; Safety</a></li>
+				</ul>
+			</div>
+			<input type="checkbox" id="menuToggle" class="hidden peer/menu">
+			<div class="hidden peer-checked/menu:block lg:hidden bg-white border-t border-stone-200 px-5 py-4 space-y-2 font-medium text-stone-800">
+				<a href="index.html" class="block py-1 hover:text-amber-600">Home</a>
+				<a href="expeditions.html" class="block py-1 hover:text-amber-600">Expeditions</a>
+				<a href="stays-lodges.html" class="block py-1 hover:text-amber-600">Stays &amp; Lodges</a>
+				<a href="gear-rentals.html" class="block py-1 hover:text-amber-600">Gear &amp; Rentals</a>
+				<a href="guides-safety.html" class="block py-1 hover:text-amber-600">Guides &amp; Safety</a>
+			</div>
+		</nav>
+
+		<!-- Section 1: Hero -->
+		<section class="relative min-h-[75vh] flex items-center justify-center bg-stone-900 overflow-hidden py-20 px-5 sm:px-8 text-white border-b border-stone-800">
+			<div class="absolute inset-0 bg-black/50 z-10"></div>
+			<div class="relative z-20 max-w-4xl mx-auto text-center">
+				<span class="inline-block bg-emerald-500/20 text-emerald-400 font-mono text-xs uppercase tracking-widest px-4 py-1.5 rounded-full border border-emerald-500/30 mb-6">
+					Stays &amp; Lodges - Trailhead Hubs
+				</span>
+				<h1 class="font-sans font-extrabold text-4xl sm:text-6xl uppercase leading-none tracking-tighter">
+					Shared wilderness bases <br/><span class="text-amber-500">for solo trekkers.</span>
+				</h1>
+				<p class="mt-6 text-stone-300 text-lg leading-relaxed max-w-2xl mx-auto font-light">
+					Budget-friendly bunkhouses and private rooms right at the base of major routes, featuring professional gear-drying rooms and communal kitchens.
+				</p>
+				<div class="mt-9 flex flex-wrap justify-center gap-4">
+					<a href="#hostels" class="bg-amber-600 hover:bg-amber-500 text-stone-950 font-mono text-xs uppercase tracking-widest px-8 py-4 rounded-full font-bold transition-all">Browse Hostels</a>
+					<a href="stays-lodges.html" class="bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/20 font-mono text-xs uppercase tracking-widest px-8 py-4 rounded-full transition-all">Back to Stays</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section 2: Features Banner -->
+		<section class="bg-stone-900 text-white py-4 font-mono text-xs uppercase tracking-widest overflow-hidden border-b border-stone-800">
+			<marquee scrollamount="6">
+				<span>✦ Gear-Drying Rooms &nbsp;&bull;&nbsp; Secure Lockers &nbsp;&bull;&nbsp; Communal Kitchens &nbsp;&bull;&nbsp; Solo Traveler Friendly ✦</span>
+			</marquee>
+		</section>
+
+		<!-- Section 3: Hostels List Section -->
+		<section id="hostels" class="max-w-7xl mx-auto px-5 sm:px-8 py-20 border-b border-stone-200">
+			<div class="text-center max-w-2xl mx-auto mb-16">
+				<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-5xl text-stone-900">Basecamp Hostels</h2>
+				<p class="text-stone-600 mt-3">Equipped with lockers, secure gear storage, and multi-fuel drying units.</p>
+			</div>
+			<div class="grid md:grid-cols-2 gap-8">
+				<div class="bg-white border border-stone-200 p-8 rounded-3xl shadow-sm">
+					<span class="font-mono text-emerald-800 text-xs font-bold uppercase tracking-widest">Basecamp Alpha</span>
+					<h3 class="font-sans font-extrabold text-2xl uppercase tracking-tight text-stone-900 mt-2 mb-3">Ridge Foothill Hostel</h3>
+					<p class="text-stone-600 text-sm leading-relaxed mb-6">Directly adjacent to the Himalayan trek start point. Bunks feature privacy curtains, reading lights, and heavy-duty lockers.</p>
+					<span class="font-mono text-lg font-bold text-stone-900">₹2400 <span class="text-xs text-stone-500">/ night (bunk)</span></span>
+				</div>
+				<div class="bg-white border border-stone-200 p-8 rounded-3xl shadow-sm">
+					<span class="font-mono text-emerald-800 text-xs font-bold uppercase tracking-widest">Basecamp Beta</span>
+					<h3 class="font-sans font-extrabold text-2xl uppercase tracking-tight text-stone-900 mt-2 mb-3">Canyon River Hostel</h3>
+					<p class="text-stone-600 text-sm leading-relaxed mb-6">Situated right at the river take-out point with large drying yards for wetsuits, helmets, and kayaking gear.</p>
+					<span class="font-mono text-lg font-bold text-stone-900">₹2800 <span class="text-xs text-stone-500">/ night (bunk)</span></span>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section 4: Amenities Breakdown -->
+		<section class="max-w-7xl mx-auto px-5 sm:px-8 py-20 border-b border-stone-200">
+			<div class="mb-12">
+				<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-4xl text-stone-900">Hostel Amenities</h2>
+			</div>
+			<div class="grid sm:grid-cols-3 gap-6 font-mono text-xs">
+				<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+					<span class="text-emerald-800 font-bold block mb-2">01 / DRYING</span>
+					<p class="text-stone-600">Industrial drying rooms ensure boots and shells are dry by dawn.</p>
+				</div>
+				<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+					<span class="text-emerald-800 font-bold block mb-2">02 / KITCHEN</span>
+					<p class="text-stone-600">Fully stocked communal kitchens for group meal prep before early starts.</p>
+				</div>
+				<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+					<span class="text-emerald-800 font-bold block mb-2">03 / SECURITY</span>
+					<p class="text-stone-600">Digital keycard access and floor-to-ceiling gear lockers.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section 5: Booking Flow -->
+		<section class="max-w-4xl mx-auto px-5 sm:px-8 py-20 border-b border-stone-200">
+			<div class="text-center mb-16">
+				<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-4xl text-stone-900">How Hostel Stays Work</h2>
+			</div>
+			<div class="space-y-6">
+				<div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm">
+					<h3 class="font-bold text-stone-900 text-lg">Bunk Reservation</h3>
+					<p class="text-xs text-stone-600 mt-1">Book individual bunks or private rooms alongside your expedition dates.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section 6: Traveler Feedback -->
+		<section class="max-w-5xl mx-auto px-5 sm:px-8 py-20 border-b border-stone-200">
+			<div class="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm text-center">
+				<p class="text-stone-700 text-base italic">&ldquo;Meeting other solo travelers at the communal kitchen made planning our joint summit attempt seamless.&rdquo;</p>
+				<p class="font-mono text-xs uppercase tracking-widest text-emerald-800 mt-6">- Liam T., Basecamp Alpha</p>
+			</div>
+		</section>
+
+		<!-- Section 7: FAQ -->
+		<section class="max-w-4xl mx-auto px-5 sm:px-8 py-20">
+			<div class="text-center mb-12">
+				<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-4xl text-stone-900">Frequently Asked Questions</h2>
+			</div>
+			<div class="bg-white border border-stone-200 rounded-2xl p-6 shadow-sm">
+				<h3 class="font-bold text-stone-900 text-base">Are sleeping bags provided in bunks?</h3>
+				<p class="text-xs text-stone-600 mt-2">Fresh linens and blankets are provided standard; guests can also rent cold-weather sleeping bags if needed.</p>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="bg-emerald-600 text-white/80 mt-16">
+			<div class="max-w-7xl mx-auto px-5 sm:px-8 py-12 text-center text-xs text-white/50">
+				&copy; 2026 TrailHead Adventures. All trails lead somewhere.
+			</div>
+		</footer>
+	</body>
+</html>

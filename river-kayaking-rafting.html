@@ -1,0 +1,661 @@
+<html>
+	<head>
+		<title> gear rentals </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!--responsive class--->
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script><!--tailwind cdn-->
+	</head>
+	
+	<body class="bg-stone-100 text-stone-800 antialiased font-sans">
+	
+		<!--navbar--->
+	<nav class="sticky top-0 z-50 bg-white shadow-md border-b border-amber-500">
+		<div class="max-w-6xl mx-auto px-5 sm:px-8 h-20 flex items-center">
+			<div class="flex">
+				<a href="index.html" class="flex items-center gap-3">
+					<svg width="34" height="34" viewBox="0 0 100 100"><circle cx="50" cy="50" r="47" fill="#064e3b"/><path d="M15 68 L38 32 L52 54 L60 42 L85 68 Z" fill="#f5f5f4"/><circle cx="68" cy="28" r="8" fill="#d97706"/></svg>
+					<span class="font-serif font-bold text-lg tracking-wide text-emerald-900">TRAIL<span class="text-amber-600">HEAD</span></span>
+				</a>
+			</div>
+
+			<label for="menuToggle" class="lg:hidden ml-auto cursor-pointer p-2">
+				<svg xmlns="http://www.w3.org/2000/svg"class="w-8 h-8 text-emerald-900"fill="none"viewBox="0 0 24 24"stroke="currentColor"><path stroke-linecap="round"stroke-linejoin="round"stroke-width="2"d="M4 6h16M4 12h16M4 18h16"/></svg>
+			</label>
+
+			<ul class="hidden lg:flex items-center gap-8 font-medium text-sm text-stone-700 ml-auto">
+				<li>
+					<a href="index.html" class="px-3 py-2 rounded hover:text-amber-600">Home</a>
+				</li>
+
+				<li class="relative">
+					<input type="checkbox" id="about1" class="hidden peer">
+
+					<label for="about1" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "expeditions.html">Expeditions</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="mountain-trekking-routes.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Mountain Trekking Routes</a></li>
+						<li><a href="river-kayaking-rafting.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">River Kayaking &amp; Rafting</a></li>
+						<li><a href="forest-camping-safaris.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Forest Camping Safaris</a></li>
+						<li><a href="desert-survival-camps.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Desert Survival Camps</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about2" class="hidden peer">
+
+					<label for="about2" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "stays-lodges.html">Stays &amp; Lodge</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="eco-friendly-cabins.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Eco-Friendly Cabins</a></li>
+						<li><a href="mountain-glamping-tents.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Mountain Glamping Tents</a></li>
+						<li><a href="treehouse-resorts.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Treehouse Resorts</a></li>
+						<li><a href="wilderness-hostels.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Wilderness Hostels</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about3" class="hidden peer">
+
+					<label for="about3" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "gear-rentals.html">Gear &amp; Rentals</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="camping-tent-gear.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Camping &amp; Tent Gear</a></li>
+						<li><a href="trekking-apparel-boots.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Trekking Apparel &amp; Boots</a></li>
+						<li><a href="gps-safety-equipment.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">GPS &amp; Safety Equipment</a></li>
+						<li><a href="complete-backpacking-packages.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Complete Backpacking Packages</a></li>
+					</ul>
+
+				</li>
+
+				<li class="relative">
+
+					<input type="checkbox" id="about4" class="hidden peer">
+
+					<label for="about4" class="list-none px-3 py-2 rounded hover:text-amber-600 inline-flex items-center gap-1 cursor-pointer">
+						<a href = "guides-safety.html">Guides &amp; Safety</a>
+						<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5"/></svg>
+					</label>
+
+					<ul class="absolute left-0 top-full hidden peer-checked:block w-64 bg-white border border-stone-200 rounded-lg shadow-lg py-2 z-50">
+						<li><a href="certified-local-guides.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Certified Local Guides</a></li>
+						<li><a href="trail-maps-gpx-downloads.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Trail Maps &amp; GPX Downloads</a></li>
+						<li><a href="wilderness-first-aid-guide.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Wilderness First Aid Guide</a></li>
+						<li><a href="weather-avalanche-alerts.html" class="block px-4 py-2 text-sm hover:bg-stone-50 hover:text-amber-600">Weather &amp; Avalanche Alerts</a></li>
+					</ul>
+
+				</li>
+
+			</ul>
+
+		</div>
+
+		<!-- Mobile Navbar--->
+		<input type="checkbox" id="menuToggle" class="hidden peer/menu">
+		<div class="hidden peer-checked/menu:block lg:hidden bg-white border-t border-stone-200">
+
+			<div class="px-5 py-4 space-y-1 font-medium">
+
+				<a href="index.html" class="block py-2 hover:text-amber-600">
+					Home
+				</a>
+
+				<input type="checkbox" id="mobileExp" class="hidden peer/exp">
+
+				<label for="mobileExp" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "expeditions.html">Expeditions</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/exp:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="mountain-trekking-routes.html" class="block py-1.5 hover:text-amber-600">Mountain Trekking Routes</a>
+					<a href="river-kayaking-rafting.html" class="block py-1.5 hover:text-amber-600">River Kayaking &amp; Rafting</a>
+					<a href="forest-camping-safaris.html" class="block py-1.5 hover:text-amber-600">Forest Camping Safaris</a>
+					<a href="desert-survival-camps.html" class="block py-1.5 hover:text-amber-600">Desert Survival Camps</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileStay" class="hidden peer/stay">
+
+				<label for="mobileStay" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "stays-lodges.html">Stays &amp; Lodges</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/stay:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="eco-friendly-cabins.html" class="block py-1.5 hover:text-amber-600">Eco-Friendly Cabins</a>
+					<a href="mountain-glamping-tents.html" class="block py-1.5 hover:text-amber-600">Mountain Glamping Tents</a>
+					<a href="treehouse-resorts.html" class="block py-1.5 hover:text-amber-600">Treehouse Resorts</a>
+					<a href="wilderness-hostels.html" class="block py-1.5 hover:text-amber-600">Wilderness Hostels</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileGear" class="hidden peer/gear">
+
+				<label for="mobileGear" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "gear-rentals.html">Gear &amp; Rentals</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/gear:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="camping-tent-gear.html" class="block py-1.5 hover:text-amber-600">Camping &amp; Tent Gear</a>
+					<a href="trekking-apparel-boots.html" class="block py-1.5 hover:text-amber-600">Trekking Apparel &amp; Boots</a>
+					<a href="gps-safety-equipment.html" class="block py-1.5 hover:text-amber-600">GPS &amp; Safety Equipment</a>
+					<a href="complete-backpacking-packages.html" class="block py-1.5 hover:text-amber-600">Complete Backpacking Packages</a>
+
+				</div>
+
+				<input type="checkbox" id="mobileGuide" class="hidden peer/guide">
+
+				<label for="mobileGuide" class="flex justify-between items-center py-2 cursor-pointer hover:text-amber-600">
+
+					<span><a href = "guides-safety.html">Guides &amp; Safety</a></span>
+
+					<svg class="w-3 h-3" viewBox="0 0 10 6" fill="none">
+						<path d="M1 1l4 4 4-4"stroke="currentColor"stroke-width="1.5"/>
+					</svg>
+
+				</label>
+
+				<div class="hidden peer-checked/guide:block pl-4 pb-2 space-y-1 text-sm text-stone-600">
+
+					<a href="certified-local-guides.html" class="block py-1.5 hover:text-amber-600">Certified Local Guides</a>
+					<a href="trail-maps-gpx-downloads.html" class="block py-1.5 hover:text-amber-600">Trail Maps &amp; GPX Downloads</a>
+					<a href="wilderness-first-aid-guide.html" class="block py-1.5 hover:text-amber-600">Wilderness First Aid Guide</a>
+					<a href="weather-avalanche-alerts.html" class="block py-1.5 hover:text-amber-600">Weather &amp; Avalanche Alerts</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</nav>
+	
+		<!--1st section--->
+		<section class="relative min-h-[85vh] flex items-center justify-center bg-stone-900 overflow-hidden py-20 px-5 sm:px-8">
+
+			<img src="img/whitewater_rafting_rapids_team.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-center opacity-40">
+			<div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-900/60 to-transparent"></div>
+
+			<div class="relative z-10 max-w-5xl mx-auto text-center">
+				<span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/30 font-mono text-xs uppercase tracking-widest mb-6 backdrop-blur-md">
+					<span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span> Expeditions - River
+				</span>
+				<h1 class="font-sans font-extrabold text-4xl sm:text-6xl lg:text-7xl uppercase leading-none tracking-tighter text-white">
+					From calm water to <span class="text-amber-500">Grade IV</span> rapids.
+				</h1>
+				<p class="mt-6 text-stone-300 text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto font-light">
+					Four distinct river experiences graded accurately by water class — so your first paddle or technical descent is perfectly matched to your skill.
+				</p>
+				
+				<div class="mt-10 flex flex-wrap justify-center gap-4">
+					<a href="#" class="bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/20 font-mono text-xs uppercase tracking-widest px-8 py-4 rounded-full transition-all hover:scale-105">
+						Check availability
+					</a>
+					<a href="expeditions.html" class="bg-white/10 hover:bg-white/20 text-white backdrop-blur-md border border-white/20 font-mono text-xs uppercase tracking-widest px-8 py-4 rounded-full transition-all hover:scale-105">
+						Back to Expeditions
+					</a>
+				</div>
+
+				<div class="mt-16 grid grid-cols-3 gap-4 max-w-xl mx-auto bg-stone-900/80 backdrop-blur-md p-6 rounded-2xl  shadow-2xl">
+					<div class="text-center">
+						<p class="font-sans text-3xl sm:text-4xl font-extrabold tracking-tighter text-amber-500">4</p>
+						<p class="font-mono text-xs uppercase tracking-widest text-stone-400 mt-1">River routes</p>
+					</div>
+					<div class="text-center">
+						<p class="font-sans text-3xl sm:text-4xl font-extrabold tracking-tighter text-white">I–IV</p>
+						<p class="font-mono text-xs uppercase tracking-widest text-stone-400 mt-1">Grade range</p>
+					</div>
+					<div class="text-center">
+						<p class="font-sans text-3xl sm:text-4xl font-extrabold tracking-tighter text-emerald-500">1–5</p>
+						<p class="font-mono text-xs uppercase tracking-widest text-stone-400 mt-1">Days range</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--2nd section--->
+		<section class="max-w-7xl mx-auto px-5 sm:px-8 py-20">
+			<div class="grid lg:grid-cols-12 gap-12 items-center">
+				<div class="lg:col-span-5 space-y-6">
+					
+					<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-5xl text-emerald-950 leading-none">
+						Match the water to your group
+					</h2>
+					<p class="text-stone-600 leading-relaxed text-base sm:text-lg">
+						River routes range from a sunset paddle suited to complete beginners to a multi-day descent for experienced paddlers. Every listing states the water grade and the swim-test requirement, if any.
+					</p>
+					
+					<div class="pt-4 space-y-4">
+						<div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-stone-200/80 shadow-sm">
+							<span class="flex shrink-0 items-center justify-center w-7 h-7 rounded-full bg-amber-500 text-stone-950 font-bold text-xs">✓</span>
+							<span class="text-stone-700 text-sm font-medium">Water grade confirmed the morning of departure based on river levels</span>
+						</div>
+						<div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-stone-200/80 shadow-sm">
+							<span class="flex shrink-0 items-center justify-center w-7 h-7 rounded-full bg-amber-500 text-stone-950 font-bold text-xs">✓</span>
+							<span class="text-stone-700 text-sm font-medium">Life jackets and helmets included on every route without hidden fees</span>
+						</div>
+						<div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-stone-200/80 shadow-sm">
+							<span class="flex shrink-0 items-center justify-center w-7 h-7 rounded-full bg-amber-500 text-stone-950 font-bold text-xs">✓</span>
+							<span class="text-stone-700 text-sm font-medium">Swim test required for Grade III and above for participant safety</span>
+						</div>
+						<div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-stone-200/80 shadow-sm">
+							<span class="flex shrink-0 items-center justify-center w-7 h-7 rounded-full bg-amber-500 text-stone-950 font-bold text-xs">✓</span>
+							<span class="text-stone-700 text-sm font-medium">Heavy-duty dry bags provided for multi-day water descents</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="lg:col-span-7 relative">
+					<div class="grid grid-cols-2 gap-4">
+						<div class="space-y-4">
+							<img src="img/thai_pagoda_sunset_hilltop.jpg" alt="" class="rounded-3xl object-cover h-64 sm:h-80 w-full shadow-lg border-4 border-white">
+							<div class="bg-emerald-900 text-white p-6 rounded-3xl space-y-2">
+								<p class="font-sans text-2xl font-extrabold uppercase tracking-tight">100% Safety</p>
+								<p class="text-xs text-emerald-200">Certified guides on all grade runs</p>
+							</div>
+						</div>
+						<div class="space-y-4 pt-8">
+							<div class="bg-amber-500 text-stone-950 p-6 rounded-3xl space-y-2">
+								<p class="font-sans text-2xl font-extrabold uppercase tracking-tight">Rapid Tech</p>
+								<p class="text-xs text-amber-950 font-medium">Modern self-bailing rafts & gear</p>
+							</div>
+							<img src="img/hiker_meadow_valley_backpack.jpg" alt="" class="rounded-3xl object-cover h-64 sm:h-80 w-full shadow-lg border-4 border-white">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--3rd Section--->
+		<section class="bg-emerald-950 text-white py-20 border-y border-emerald-900">
+		  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+			<div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+			  <div>
+				<p class="mb-3"></p>
+				<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-5xl leading-none">What to expect on the water</h2>
+			  </div>
+			</div>
+
+			<div class="-mx-5 sm:-mx-8 mb-14 border-y border-amber-500/30 bg-amber-500">
+			  <marquee scrollamount="6" class="py-3">
+				<div class="flex items-center gap-3">
+				  <span class="font-mono text-emerald-950 text-sm sm:text-base uppercase tracking-widest">Grade-matched groups</span>
+				  <span class="text-emerald-950/60">★</span>
+				  <span class="font-mono text-emerald-950 text-sm sm:text-base uppercase tracking-widest">Daily water checks</span>
+				  <span class="text-emerald-950/60">★</span>
+				  <span class="font-mono text-emerald-950 text-sm sm:text-base uppercase tracking-widest">Full safety kit included</span>
+				  <span class="text-emerald-950/60">★</span>
+				  <span class="font-mono text-emerald-950 text-sm sm:text-base uppercase tracking-widest">Rescue-certified guides</span>
+				  <span class="text-emerald-950/60">★</span>
+				</div>
+			  </marquee>
+			</div>
+
+			<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+			  <div class="p-8 rounded-2xl bg-emerald-900/50 border border-emerald-800/80 hover:border-amber-500/50 transition-all hover:-translate-y-1">
+				
+				<h3 class="font-sans font-extrabold uppercase tracking-tight text-xl mb-2">Grade-matched groups</h3>
+				<p class="text-sm text-emerald-100/70 leading-relaxed">Paddlers are grouped strictly by prior experience so a Grade IV run never mixes inconsistent skill levels.</p>
+			  </div>
+			  <div class="p-8 rounded-2xl bg-emerald-900/50 border border-emerald-800/80 hover:border-amber-500/50 transition-all hover:-translate-y-1">
+				
+				<h3 class="font-sans font-extrabold uppercase tracking-tight text-xl mb-2">Daily water checks</h3>
+				<p class="text-sm text-emerald-100/70 leading-relaxed">Guides confirm water flow and active grade classifications each morning before departure.</p>
+			  </div>
+			  <div class="p-8 rounded-2xl bg-emerald-900/50 border border-emerald-800/80 hover:border-amber-500/50 transition-all hover:-translate-y-1">
+				
+				<h3 class="font-sans font-extrabold uppercase tracking-tight text-xl mb-2">Full safety kit included</h3>
+				<p class="text-sm text-emerald-100/70 leading-relaxed">High-buoyancy life jackets, helmets, and throw bags are fully standard issue for everyone.</p>
+			  </div>
+			  <div class="p-8 rounded-2xl bg-emerald-900/50 border border-emerald-800/80 hover:border-amber-500/50 transition-all hover:-translate-y-1">
+				
+				<h3 class="font-sans font-extrabold uppercase tracking-tight text-xl mb-2">Rescue-certified guides</h3>
+				<p class="text-sm text-emerald-100/70 leading-relaxed">All river guides hold international swiftwater rescue certifications, updated annually.</p>
+			  </div>
+			</div>
+		  </div>
+		</section>
+
+		<!--4th section-->
+		<section class="max-w-7xl mx-auto px-5 sm:px-8 py-20">
+			<div class="text-center max-w-2xl mx-auto mb-16">
+				<p class="mb-2"></p>
+				<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-5xl text-stone-900 leading-none">Four river experiences</h2>
+				<p class="text-stone-600 mt-4">Select an expedition suited to your group's experience level.</p>
+			</div>
+
+			<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+	
+				<article class="group rounded-3xl overflow-hidden bg-white border border-stone-200/80 shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col">
+					<div class="relative h-56 overflow-hidden">
+						<img src="img/thai_pagoda_sunset_hilltop.jpg" alt="" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+						<span class="absolute top-4 left-4 bg-stone-950/80 backdrop-blur-md text-amber-400 font-mono text-xs uppercase tracking-widest px-3 py-1.5 rounded-full border border-amber-500/30">
+							1 Day - Grade IV
+						</span>
+					</div>
+					<div class="p-6 flex flex-col flex-grow justify-between">
+						<div>
+							<h3 class="font-sans font-extrabold uppercase tracking-tight text-xl text-stone-900 group-hover:text-emerald-900 transition-colors">Whitewater Rapids Run</h3>
+							<p class="text-sm text-stone-600 mt-3 leading-relaxed">A fast, technical run through a narrow limestone gorge designed for seekers of high adrenaline.</p>
+						</div>
+						
+					</div>
+				</article>
+
+				<article class="group rounded-3xl overflow-hidden bg-white border border-stone-200/80 shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col">
+					<div class="relative h-56 overflow-hidden">
+						<img src="img/scuba_diver_reef_fish.jpg" alt="" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+						<span class="absolute top-4 left-4 bg-stone-950/80 backdrop-blur-md text-amber-400 font-mono text-xs uppercase tracking-widest px-3 py-1.5 rounded-full border border-amber-500/30">
+							Half Day - Grade I
+						</span>
+					</div>
+					<div class="p-6 flex flex-col flex-grow justify-between">
+						<div>
+							<h3 class="font-sans font-extrabold uppercase tracking-tight text-xl text-stone-900 group-hover:text-emerald-900 transition-colors">Sunset Calm-Water Paddle</h3>
+							<p class="text-sm text-stone-600 mt-3 leading-relaxed">An easy evening paddle suited to complete beginners, families, and relaxing scenic tours.</p>
+						</div>
+						
+					</div>
+				</article>
+
+				<article class="group rounded-3xl overflow-hidden bg-white border border-stone-200/80 shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col">
+					<div class="relative h-56 overflow-hidden">
+						<img src="img/hiker_meadow_valley_backpack.jpg" alt="" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+						<span class="absolute top-4 left-4 bg-stone-950/80 backdrop-blur-md text-amber-400 font-mono text-xs uppercase tracking-widest px-3 py-1.5 rounded-full border border-amber-500/30">
+							2 Days - Grade III
+						</span>
+					</div>
+					<div class="p-6 flex flex-col flex-grow justify-between">
+						<div>
+							<h3 class="font-sans font-extrabold uppercase tracking-tight text-xl text-stone-900 group-hover:text-emerald-900 transition-colors">Canyon Gorge Rafting</h3>
+							<p class="text-sm text-stone-600 mt-3 leading-relaxed">A two-day raft descent through a steep-walled canyon with wilderness riverside camping overnight.</p>
+						</div>
+						
+					</div>
+				</article>
+
+				<article class="group rounded-3xl overflow-hidden bg-white border border-stone-200/80 shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col">
+					<div class="relative h-56 overflow-hidden">
+						<img src="img/misty_ridge_sunrise_scotland.jpg" alt="" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+						<span class="absolute top-4 left-4 bg-stone-950/80 backdrop-blur-md text-amber-400 font-mono text-xs uppercase tracking-widest px-3 py-1.5 rounded-full border border-amber-500/30">
+							5 Days - Grade II–III
+						</span>
+					</div>
+					<div class="p-6 flex flex-col flex-grow justify-between">
+						<div>
+							<h3 class="font-sans font-extrabold uppercase tracking-tight text-xl text-stone-900 group-hover:text-emerald-900 transition-colors">Multi-Day River Expedition</h3>
+							<p class="text-sm text-stone-600 mt-3 leading-relaxed">A comprehensive five-day descent with complete gear support and riverside wilderness camping.</p>
+						</div>
+						
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<!--5th section-->
+		<section class="bg-stone-200/60 py-20 border-y border-stone-300/60">
+			<div class="max-w-7xl mx-auto px-5 sm:px-8">
+				<div class="grid lg:grid-cols-12 gap-12 items-center">
+					
+					<div class="lg:col-span-5 space-y-6">
+					
+						<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-4xl text-stone-900 leading-none">How a river trip runs</h2>
+						<p class="text-stone-600">From the moment you step foot at the base camp to taking out downstream, we follow a precise sequence for safety and enjoyment.</p>
+						
+						<div class="relative pl-6 border-l-2 border-emerald-800/20 space-y-8 my-8">
+							<div class="relative">
+								<div class="absolute -left-[31px] top-0 w-6 h-6 rounded-full bg-emerald-900 text-white text-xs font-bold flex items-center justify-center">1</div>
+								<h3 class="font-sans font-extrabold uppercase tracking-tight text-stone-900 text-lg">Grade confirmation</h3>
+								<p class="text-sm text-stone-600 mt-1">Guides check water levels the morning of departure and confirm conditions directly with the group.</p>
+							</div>
+
+							<div class="relative">
+								<div class="absolute -left-[31px] top-0 w-6 h-6 rounded-full bg-emerald-900 text-white text-xs font-bold flex items-center justify-center">2</div>
+								<h3 class="font-sans font-extrabold uppercase tracking-tight text-stone-900 text-lg">Safety briefing</h3>
+								<p class="text-sm text-stone-600 mt-1">A mandatory briefing on paddling technique, signals, and swiftwater rescue positions before launch.</p>
+							</div>
+
+							<div class="relative">
+								<div class="absolute -left-[31px] top-0 w-6 h-6 rounded-full bg-emerald-900 text-white text-xs font-bold flex items-center justify-center">3</div>
+								<h3 class="font-sans font-extrabold uppercase tracking-tight text-stone-900 text-lg">On the water</h3>
+								<p class="text-sm text-stone-600 mt-1">Guided paddling in grade-matched groups with strategic rest stops along scenic riverbanks.</p>
+							</div>
+
+							<div class="relative">
+								<div class="absolute -left-[31px] top-0 w-6 h-6 rounded-full bg-emerald-900 text-white text-xs font-bold flex items-center justify-center">4</div>
+								<h3 class="font-sans font-extrabold uppercase tracking-tight text-stone-900 text-lg">Take-out & debrief</h3>
+								<p class="text-sm text-stone-600 mt-1">A short team debrief at take-out covering route highlights and returning gear.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="lg:col-span-7">
+						<div class="relative rounded-3xl overflow-hidden shadow-2xl">
+							<img src="img/kitchen_faucet_running_water.jpg" alt="" class="w-full h-[550px] object-cover">
+							<div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent flex items-end p-8">
+								<div class="text-white">
+									<p class="font-sans text-2xl font-extrabold">"Safety isn't just a checklist; it's our entire culture."</p>
+									<p class="text-xs text-amber-400 mt-2 font-medium">Head Guide &amp; Swiftwater Instructor</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!--6th sedtion-->
+		<section class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-emerald-950 text-white py-16">
+			<div class="max-w-7xl mx-auto px-5 sm:px-8">
+				<div class="bg-white/5  rounded-3xl p-8 sm:p-12 backdrop-blur-md">
+					<h2 class="font-sans font-extrabold uppercase tracking-tighter text-2xl sm:text-3xl mb-8 text-center text-amber-400 leading-none">
+						River Kayaking &amp; Rafting at a glance
+					</h2>
+					<div class="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center ">
+						<div class="p-2">
+							<p class="font-sans text-4xl sm:text-5xl font-extrabold tracking-tighter text-white">4</p>
+							<p class="font-mono text-xs uppercase tracking-widest text-emerald-200/80 mt-2">Live routes</p>
+						</div>
+						<div class="p-2">
+							<p class="font-sans text-4xl sm:text-5xl font-extrabold tracking-tighter text-white">I–IV</p>
+							<p class="font-mono text-xs uppercase tracking-widest text-emerald-200/80 mt-2">Grade range</p>
+						</div>
+						<div class="p-2">
+							<p class="font-sans text-4xl sm:text-5xl font-extrabold tracking-tighter text-amber-400">100%</p>
+							<p class="font-mono text-xs uppercase tracking-widest text-emerald-200/80 mt-2">Swiftwater certified</p>
+						</div>
+						<div class="p-2">
+							<p class="font-sans text-4xl sm:text-5xl font-extrabold tracking-tighter text-white">9.3<span class="text-2xl text-emerald-300">/10</span></p>
+							<p class="font-mono text-xs uppercase tracking-widest text-emerald-200/80 mt-2">Guide rating</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--7th section--->
+		<section class="max-w-7xl mx-auto px-5 sm:px-8 py-20">
+			<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
+				<div>
+					<p class="mb-2"></p>
+					<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-5xl text-stone-900 leading-none">Recent feedback</h2>
+				</div>
+			</div>
+
+			<div class="grid md:grid-cols-2 gap-8">
+				<div class="p-8 rounded-3xl bg-white border border-stone-200 shadow-sm relative flex flex-col justify-between">
+					<div class="mb-4"></div>
+					<p class="text-stone-700 text-lg leading-relaxed italic mb-8">
+						&ldquo;Grade IV run was exactly as billed — no surprise upgrade once we were on the water. The equipment was top tier and the safety briefing gave us absolute confidence.&rdquo;
+					</p>
+					<div class="flex items-center gap-4 pt-4">
+						<div class="w-12 h-12 rounded-full bg-emerald-900 text-white flex items-center justify-center font-sans font-extrabold text-base shadow-md">
+							NC
+						</div>
+						<div>
+							<p class="font-mono text-xs uppercase tracking-widest text-emerald-900">Nedunchezhiyan</p>
+							<p class="text-xs text-stone-500 mt-1">Karaikudi - Grade IV Rapids</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="p-8 rounded-3xl bg-white border border-stone-200 shadow-sm relative flex flex-col justify-between">
+					<div class="mb-4"></div>
+					<p class="text-stone-700 text-lg leading-relaxed italic mb-8">
+						&ldquo;Sunset paddle was the perfect low-key add-on to a longer trip. Calm waters, unbelievable views, and a guide who knew every bird species along the bank.&rdquo;
+					</p>
+					<div class="flex items-center gap-4 pt-4">
+						<div class="w-12 h-12 rounded-full bg-amber-600 text-white flex items-center justify-center font-sans font-extrabold text-base shadow-md">
+							JK
+						</div>
+						<div>
+							<p class="font-mono text-xs uppercase tracking-widest text-emerald-900">Josheph Kuruvila</p>
+							<p class="text-xs text-stone-500 mt-1">Munnar - Sunset Paddle</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--8th sectiom-->
+		<section class="bg-white border-t border-stone-200 py-20">
+			<div class="max-w-4xl mx-auto px-5 sm:px-8">
+				<div class="text-center mb-12">
+					<h2 class="font-sans font-extrabold uppercase tracking-tighter text-3xl sm:text-4xl text-stone-900 mt-2 leading-none">Frequently asked</h2>
+				</div>
+
+				<div class="space-y-4">
+
+					<div class="border border-stone-200 rounded-2xl bg-stone-50/50 overflow-hidden">
+						<input type="checkbox" id="faq1" class="peer/faq1 hidden">
+						<label for="faq1" class="cursor-pointer flex justify-between items-center font-sans font-extrabold uppercase tracking-tight text-lg text-stone-900 p-6 peer-checked/faq1:[&>span]:-rotate-180">
+							Do I need swimming experience?
+							<span class="ml-4 shrink-0 transition-transform duration-300 text-amber-600">
+								<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+							</span>
+						</label>
+						<div class="hidden peer-checked/faq1:block px-6 pb-6">
+							<p class="text-stone-600 leading-relaxed text-sm">
+								A swim test is required for Grade III routes and above; the sunset paddle has no swim requirement as waters are calm and life jackets are provided.
+							</p>
+						</div>
+					</div>
+
+					<div class="border border-stone-200 rounded-2xl bg-stone-50/50 overflow-hidden">
+						<input type="checkbox" id="faq2" class="peer/faq2 hidden">
+						<label for="faq2" class="cursor-pointer flex justify-between items-center font-sans font-extrabold uppercase tracking-tight text-lg text-stone-900 p-6 peer-checked/faq2:[&>span]:-rotate-180">
+							Is gear included?
+							<span class="ml-4 shrink-0 transition-transform duration-300 text-amber-600">
+								<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+							</span>
+						</label>
+						<div class="hidden peer-checked/faq2:block px-6 pb-6">
+							<p class="text-stone-600 leading-relaxed text-sm">
+								High-buoyancy life jackets, safety helmets, and paddles are included on every route; full wetsuits and booties can be added during online checkout.
+							</p>
+						</div>
+					</div>
+
+					<div class="border border-stone-200 rounded-2xl bg-stone-50/50 overflow-hidden">
+						<input type="checkbox" id="faq3" class="peer/faq3 hidden">
+						<label for="faq3" class="cursor-pointer flex justify-between items-center font-sans font-extrabold uppercase tracking-tight text-lg text-stone-900 p-6 peer-checked/faq3:[&>span]:-rotate-180">
+							What if water levels are too low or high?
+							<span class="ml-4 shrink-0 transition-transform duration-300 text-amber-600">
+								<svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+							</span>
+						</label>
+						<div class="hidden peer-checked/faq3:block px-6 pb-6">
+							<p class="text-stone-600 leading-relaxed text-sm">
+								Guides assess real-time river gauges daily and will substitute a grade-appropriate alternative route or reschedule rather than run unsafe water.
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+	
+		<!--footer section--->
+			<footer class="bg-emerald-600 text-white/80 mt-16">
+			  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+			  
+				<div>
+				  <div class="flex items-center gap-3 mb-4">
+					<span class="font-serif font-bold text-white">TRAILHEAD</span>
+				  </div>
+				  <p class="text-sm text-white/50 leading-relaxed">Adventure travel, eco-lodge bookings and outdoor gear for people who plan their year around a trailhead.</p>
+				</div>
+				
+				<div>
+				  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Explore</h4>
+				  <ul class="space-y-2 text-sm text-white/60">
+					<li><a href="expeditions.html" class="hover:text-amber-500">Expeditions</a></li>
+					<li><a href="stays-lodges.html" class="hover:text-amber-500">Stays &amp; Lodges</a></li>
+					<li><a href="gear-rentals.html" class="hover:text-amber-500">Gear &amp; Rentals</a></li>
+					<li><a href="guides-safety.html" class="hover:text-amber-500">Guides &amp; Safety</a></li>
+				  </ul>
+				</div>
+				
+				<div>
+				  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Company</h4>
+				  <ul class="space-y-2 text-sm text-white/60">
+					<li><a href="#" class="hover:text-amber-500">About TrailHead</a></li>
+					<li><a href="#" class="hover:text-amber-500">Careers</a></li>
+					<li><a href="#" class="hover:text-amber-500">Field Journal</a></li>
+					<li><a href="#" class="hover:text-amber-500">Contact</a></li>
+				  </ul>
+				</div>
+				
+				<div>
+				  <h4 class="font-semibold text-white mb-4 text-sm uppercase tracking-wide">Support</h4>
+				  <ul class="space-y-2 text-sm text-white/60">
+					<li><a href="wilderness-first-aid-guide.html" class="hover:text-amber-500">Safety &amp; First Aid</a></li>
+					<li><a href="weather-avalanche-alerts.html" class="hover:text-amber-500">Weather Alerts</a></li>
+					<li><a href="#" class="hover:text-amber-500">Cancellations</a></li>
+					<li><a href="#" class="hover:text-amber-500">Terms &amp; Privacy</a></li>
+				  </ul>
+				</div>
+				
+			  </div>
+			  
+			  <div class="border-t border-white/10">
+				<div class="max-w-7xl mx-auto px-5 sm:px-8 py-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-white/40">
+				  <p>&copy; 2026 TrailHead Adventures. All trails lead somewhere.</p>
+				  <p>Privacy Policy &middot; Terms &middot; Accessibility</p>
+				</div>
+			  </div>
+			  
+			</footer>

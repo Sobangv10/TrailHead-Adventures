@@ -25,7 +25,7 @@ Plus a homepage (`index.html`) and category landing pages for each section above
 ## Project structure
 
 ```
-trailhead/
+TrailHead-Adventures/
 ├── index.html
 ├── expeditions.html
 ├── mountain-trekking-routes.html
@@ -56,8 +56,8 @@ trailhead/
 No build tools needed — just clone and open in a browser:
 
 ```bash
-git clone https://github.com/<your-username>/trailhead.git
-cd trailhead
+git clone https://github.com/Sobangv10/TrailHead-Adventures.git
+cd TrailHead-Adventures
 ```
 
 Then open `index.html` directly in your browser, or serve it locally:
